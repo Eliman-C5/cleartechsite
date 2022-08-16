@@ -2,8 +2,8 @@ import React from 'react';
 import FadeInSection from 'components/Wrappers/FadeInSection';
 import NormalSection from 'components/Wrappers/NormalSection';
 import Menu from 'components/HomeSections/AboutUS/Menu';
-import DataAI from 'components/HomeSections/AboutUS/DataAI';
 import Manager from 'components/HomeSections/AboutUS/Manager';
+import Button from 'components/Atoms/Button';
 const AboutUsSection = () => {
   return (
     <NormalSection>
@@ -18,6 +18,9 @@ const AboutUsSection = () => {
         </p>
         <Menu />
         <Manager />
+        <div className="flex justify-center mt-[35px]">
+          <Button title={'Know how'} />
+        </div>
       </FadeInSection>
     </NormalSection>
   );
