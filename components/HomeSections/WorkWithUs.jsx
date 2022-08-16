@@ -1,6 +1,8 @@
 import React from 'react';
 import Section from 'components/Wrappers/NormalAndFadeInSection';
 import Menu from 'components/HomeSections/WorkWithUs/Menu';
+import Manager from 'components/HomeSections/WorkWithUs/Manager';
+import Button from 'components/Atoms/Button';
 const WorkWithUs = () => {
   return (
     <Section>
@@ -11,6 +13,10 @@ const WorkWithUs = () => {
         We are aroud the world
       </p>
       <Menu />
+      <Manager />
+      <div className="flex justify-center mt-[35px]">
+        <Button title={'Talk with us'} />
+      </div>
     </Section>
   );
 };

@@ -4,6 +4,7 @@ import LogoSection from 'components/HomeSections/LogoSection';
 import AboutUsSection from 'components/HomeSections/AboutUsSection';
 import Cases from 'components/HomeSections/CasesSection';
 import WorkWithUs from 'components/HomeSections/WorkWithUs';
+import Map from 'components/HomeSections/MapSection';
 const Home = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home = () => {
       <AboutUsSection />
       <Cases />
       <WorkWithUs />
+      <Map />
     </>
   );
 };
