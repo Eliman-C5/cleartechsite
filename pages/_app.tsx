@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Layout from 'components/Wrappers/Layout';
+import { AppProvider } from 'context/GeneralProvider';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -19,9 +20,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         ></link>
       </Head>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <AppProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </AppProvider>
     </>
   );
 }
