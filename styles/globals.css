@@ -9,7 +9,9 @@ body {
 .roboto {
   font-family: 'Roboto', sans-serif;
 }
-
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
 .tittles {
   font-size: 2rem;
   color: #010b39;

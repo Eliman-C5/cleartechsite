@@ -36,3 +36,28 @@ export const logos = [
     src: 'assistcard',
   },
 ];
+
+export const aboutUsCards = {
+  dataAI: [
+    {
+      imgsrc: '/img/icons/knowhow/analytics.svg',
+      title: 'BI & Analytics',
+      charlist: ['Reporting', 'Dashboards', 'Scorecards', 'Analytics'],
+    },
+    {
+      imgsrc: '/img/icons/knowhow/datamanagement.svg',
+      title: 'Data management',
+      charlist: [
+        'System integration',
+        'Data warehouse',
+        'Master data management',
+        'Big data',
+      ],
+    },
+    {
+      imgsrc: '/img/icons/knowhow/datascience.svg',
+      title: 'Data science',
+      charlist: ['Predictive analysis', 'Machine learning', 'Cognitive'],
+    },
+  ],
+};

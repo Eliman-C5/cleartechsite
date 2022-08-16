@@ -53,7 +53,7 @@ const Menu = () => {
     setworkwithusMenuNum(id);
   };
   return (
-    <div className="flex items-center justify-between w-full">
+    <div className="flex items-center justify-between w-full mb-[50px]">
       {MenuItems.map((item) => (
         <div
           key={item.id}

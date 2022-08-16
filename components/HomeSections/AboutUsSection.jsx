@@ -2,6 +2,8 @@ import React from 'react';
 import FadeInSection from 'components/Wrappers/FadeInSection';
 import NormalSection from 'components/Wrappers/NormalSection';
 import Menu from 'components/HomeSections/AboutUS/Menu';
+import DataAI from 'components/HomeSections/AboutUS/DataAI';
+import Manager from 'components/HomeSections/AboutUS/Manager';
 const AboutUsSection = () => {
   return (
     <NormalSection>
@@ -15,6 +17,7 @@ const AboutUsSection = () => {
           giving you a multidiscplinary, proactive and agile team.
         </p>
         <Menu />
+        <Manager />
       </FadeInSection>
     </NormalSection>
   );
