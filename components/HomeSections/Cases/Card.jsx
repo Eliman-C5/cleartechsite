@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Card = ({ imgsrc, title, desc, link }) => {
   return (
     <div
-      className="w-[32%]  max-w-[365px] rounded-md  h-[402px]"
+      className="w-[32%]  max-w-[365px] rounded-md  h-[402px] bg-white"
       style={{
         boxShadow: '0px 10px 40px rgba(67, 97, 238, 0.21)',
         borderRadius: '9.7094px',
