@@ -34,6 +34,7 @@ const HeroSection = () => {
               <img
                 src="/img/dahsboard.png"
                 alt="let your data tell a better story"
+                className="h-[58vh]"
               />
             </div>
           </div>

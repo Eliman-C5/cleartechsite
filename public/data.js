@@ -167,3 +167,27 @@ export const aboutUsCards = {
     },
   ],
 };
+
+export const cases = [
+  {
+    id: 1,
+    img: '/img/cases/bimbo.png',
+    title: 'Bimbo',
+    desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
+    link: '/',
+  },
+  {
+    id: 2,
+    img: '/img/cases/commonareas.png',
+    title: 'Common areas',
+    desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
+    link: '/',
+  },
+  {
+    id: 3,
+    img: '/img/cases/ttec.png',
+    title: 'TTEC',
+    desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
+    link: '/',
+  },
+];
