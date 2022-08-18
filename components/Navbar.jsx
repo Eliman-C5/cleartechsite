@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Link from 'next/link';
 const links = [
   {
     id: '1',
     title: 'Solutions',
-    src: '/',
+    src: '/Services',
   },
   {
     id: '2',
@@ -14,7 +14,7 @@ const links = [
   {
     id: '3',
     title: 'About us',
-    src: '/',
+    src: '/AboutUs',
   },
   {
     id: '4',
@@ -34,12 +34,11 @@ const Navbar = () => {
         />
         <div className="flex space-x-8 items-center">
           {links.map((link) => (
-            <p
-              key={link.id}
-              className="text-color03_black  text-sm cursor-pointer"
-            >
-              {link.title}
-            </p>
+            <Link href={link.src} key={link.id}>
+              <p className="text-color03_black  text-sm cursor-pointer">
+                {link.title}
+              </p>
+            </Link>
           ))}
         </div>
         <button className=" text-white  font-bold text-sm bg-color02_blue  px-[30px] py-[10px] rounded-md  ">
