@@ -218,3 +218,62 @@ export const choosecards = [
     desc: 'Argentina and the Philippines have extremely high bilingual rates in the world with English is the most studied language. ',
   },
 ];
+
+export const team = [
+  {
+    id: 1,
+    name: 'Santiago Benvenuto',
+    image: '/img/team/santiago.png',
+    job: 'Product Owner & Visualization Lead',
+    linkedinlink: '/',
+  },
+  {
+    id: 2,
+    name: 'Christian Denuble',
+    image: '/img/team/christian.png',
+    job: 'Head of Technology & Partner',
+    linkedinlink: '/',
+  },
+  {
+    id: 3,
+    name: ' Macarena Zak Cortella',
+    image: '/img/team/macarena.png',
+    job: 'HR Business Partner',
+    linkedinlink: '/',
+  },
+  {
+    id: 4,
+    name: ' Leonardo Campos',
+    image: '/img/team/leonardo.png',
+    job: 'Tech Lead',
+    linkedinlink: '/',
+  },
+  {
+    id: 5,
+    name: 'Ignacio Isla ',
+    image: '/img/team/ignacio.png',
+    job: 'Tech Lead',
+    linkedinlink: '/',
+  },
+  {
+    id: 6,
+    name: 'Gabriel Grispo',
+    image: '/img/team/gabriel.png',
+    job: 'Head of Operations & Partner',
+    linkedinlink: '/',
+  },
+  {
+    id: 7,
+    name: 'Kyle Baizas ',
+    image: '/img/team/kyle.png',
+    job: 'Managing Director & Partner',
+    linkedinlink: '/',
+  },
+  {
+    id: 8,
+    name: 'Mauro Beneitez ',
+    image: '/img/team/mauro.png',
+    job: 'Data & IA Studio Partner  Azure Architect',
+    linkedinlink: '/',
+  },
+];
