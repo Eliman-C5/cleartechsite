@@ -26,3 +26,14 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.margin_for_choose_section {
+  margin-left: auto;
+}
+
+@media (min-width: 1550px) {
+  .margin_for_choose_section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

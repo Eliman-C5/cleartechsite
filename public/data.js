@@ -191,3 +191,30 @@ export const cases = [
     link: '/',
   },
 ];
+
+export const choosecards = [
+  {
+    id: 1,
+    icon: '/img/icons/aboutus/global.svg',
+    title: 'Global presence and engagements',
+    desc: 'We have teams working all around the world.',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/aboutus/costs.svg',
+    title: 'Reduced Costs and Increased Profitability',
+    desc: 'Reducing the costs of various business processes can result in increased profitability for the company.',
+  },
+  {
+    id: 3,
+    icon: '/img/icons/aboutus/workforce.svg',
+    title: 'A Highly Skilled Workforce and College Graduates',
+    desc: 'Two of our best sources from where we have built our team are  the Philippines and Argentina. ',
+  },
+  {
+    id: 4,
+    icon: '/img/icons/aboutus/peoples.svg',
+    title: 'Completely Bilingual',
+    desc: 'Argentina and the Philippines have extremely high bilingual rates in the world with English is the most studied language. ',
+  },
+];

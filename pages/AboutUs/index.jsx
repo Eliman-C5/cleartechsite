@@ -2,6 +2,7 @@ import React from 'react';
 import PageHeader from '../../components/Atoms/PageHeader';
 import Value from '../../components/AboutUsSections/Value';
 import Choose from '../../components/AboutUsSections/Choose';
+import Team from '../../components/AboutUsSections/Team';
 const index = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const index = () => {
       />
       <Value />
       <Choose />
+      <Team />
     </div>
   );
 };
