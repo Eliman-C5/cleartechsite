@@ -1,6 +1,6 @@
 import Section from 'components/Wrappers/NormalAndFadeInSection';
 import { team } from '../../public/data';
-
+import Button from 'components/Atoms/Button';
 const TeamCard = ({ image, name, job, likedinlink }) => {
   return (
     <div className="w-[20%] mb-[45px]">
@@ -26,6 +26,9 @@ const Team = () => {
           ))}
         </div>
       </article>
+      <div className="flex justify-center mt-[30px]">
+        <Button title="Contact us" />
+      </div>
     </Section>
   );
 };
