@@ -5,6 +5,7 @@ import AboutUsSection from 'components/HomeSections/AboutUsSection';
 import Cases from 'components/HomeSections/CasesSection';
 import WorkWithUs from 'components/HomeSections/WorkWithUs';
 import Map from 'components/HomeSections/MapSection';
+import Contact from 'components/HomeSections/Contact';
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
       <Cases />
       <WorkWithUs />
       <Map />
+      <Contact />
     </>
   );
 };
