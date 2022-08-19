@@ -11,7 +11,7 @@ const UX = () => {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="flex justify-between"
+      className="flex  md:flex-row flex-col justify-between"
     >
       {ux.map((d) => (
         <Card title={d.title} imgsrc={d.imgsrc} charlist={d.charlist} />

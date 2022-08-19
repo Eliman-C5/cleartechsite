@@ -11,7 +11,7 @@ import Consulting from './Consulting';
 const Manager = () => {
   const { featuresMenuNum } = useGeneralProvider();
   return (
-    <div className="w-full h-[200px]">
+    <div className="w-full h-[500px] md:h-[200px]">
       {(() => {
         switch (featuresMenuNum) {
           case 1:

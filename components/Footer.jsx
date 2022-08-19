@@ -27,14 +27,14 @@ const links = [
 const Footer = () => {
   return (
     <Section>
-      <div className=" flex  h-[215px]">
+      <div className=" flex md:flex-row flex-col h-auto md:h-[215px]">
         <div className="flex-1">
           <img src="/img/cleartech_log.png" alt=" cleartech logo" />
           <p className=" text-color03_black ml-3 roboto  ">
             Let your data tell a better story
           </p>
         </div>
-        <div className="flex">
+        <div className="flex md:flex-row flex-col ml-3 md:ml-0">
           <div className=" mr-[120px]">
             <p className="gradient_title">Links</p>
             {links.map((li) => (

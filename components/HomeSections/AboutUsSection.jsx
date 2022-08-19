@@ -10,7 +10,7 @@ const AboutUsSection = () => {
         We make <span className="gradient_title ">data meaningful</span> for
         your business{' '}
       </h2>
-      <p className="text-center text-color03_black   mx-auto mb-[30px]">
+      <p className="md:text-center roboto text-color03_black   mx-auto mb-[30px]">
         We bring the best solutions for every challenge, we a field of experts
         giving you a multidiscplinary, proactive and agile team.
       </p>

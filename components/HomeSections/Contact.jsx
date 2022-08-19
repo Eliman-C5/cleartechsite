@@ -19,12 +19,12 @@ const Contact = () => {
   return (
     <div className="w-full bg-[#F7F7F7]">
       <Section>
-        <div className="h-[582px] w-full flex items-center">
-          <form className="flex-1">
+        <div className="h-auto md:h-[582px] w-full flex md:flex-row flex-col items-center">
+          <form className="flex-1 py-10 md:py-0">
             <h2 className="tittles" style={{ textAlign: 'left' }}>
               Suscribe to <span className="gradient_title">our newsletter</span>{' '}
             </h2>
-            <div className="w-[80%] bg-[#DFDFDF] flex items-center rounded-sm mb-[15px] ">
+            <div className="md:w-[80%] bg-[#DFDFDF] flex items-center rounded-sm mb-[15px] ">
               <img src="/img/bxs_user-circle.svg" className=" mx-3" />
               <input
                 type="text"
@@ -32,7 +32,7 @@ const Contact = () => {
                 className="py-[10px] bg-transparent form-input text-color03_black border-none focus:ring-0  ring-0"
               />
             </div>
-            <div className="w-[80%] bg-[#DFDFDF] flex items-center rounded-sm mb-[30px] ">
+            <div className="md:w-[80%] bg-[#DFDFDF] flex items-center rounded-sm mb-[30px] ">
               <img src="/img/fluent_mail-20-filled.png" className=" mx-3" />
               <input
                 type="email"
@@ -60,7 +60,11 @@ const Contact = () => {
             </button>
           </form>
           <div>
-            <img src="/img/contact.png" alt="contacto" />
+            <img
+              src="/img/contact.png"
+              alt="contacto"
+              className="py-5 md:py-0"
+            />
           </div>
         </div>
       </Section>

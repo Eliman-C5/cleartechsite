@@ -7,7 +7,7 @@ const Product = ({ children }) => {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="w-full"
+      className="w-full h-full"
     >
       {children}
     </motion.div>

@@ -4,8 +4,8 @@ import FeatureSection from './FeatureSection';
 const Training = () => {
   return (
     <FeatureSection>
-      <div className="flex">
-        <div className="flex-1 text-color02_blue">
+      <div className="flex md:flex-row flex-col h-full justify-around">
+        <div className="md:flex-1 text-color02_blue">
           <div className="w-[95%]">
             <p className="mb-[15px]">
               Breakthrough insights that empower you to act in a competitive

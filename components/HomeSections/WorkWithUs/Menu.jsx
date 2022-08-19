@@ -47,28 +47,30 @@ const Menu = () => {
     setfeaturesMenuNum(id);
   };
   return (
-    <div className="flex items-center justify-between w-full mb-[50px]">
-      {MenuItems.map((item) => (
-        <div
-          key={item.id}
-          className={`${
-            item.id === featuresMenuNum && ' bg-color02_blue text-[#fff]'
-          } flex w-[18.66%] justify-center items-center max-w-[211px] h-[55px] border border-color02_blue rounded-md cursor-pointer text-color02_blue font-bold hover:bg-color02_blue hover:text-white transition-all`}
-          onMouseOver={() => menuHover(item.id)}
-          onMouseLeave={() => setMenuIconNum(0)}
-          onClick={() => clickMenu(item.id)}
-        >
-          <img
-            src={
-              item.id === menuIconNum || item.id === featuresMenuNum
-                ? item.iconWhite
-                : item.iconBlue
-            }
-            className="mr-1"
-          />
-          <p>{item.title}</p>
-        </div>
-      ))}
+    <div className="w-full overflow-x-scroll xl:overflow-x-hidden">
+      <div className="flex items-center justify-between w-[1146px] mb-[50px]">
+        {MenuItems.map((item) => (
+          <div
+            key={item.id}
+            className={`${
+              item.id === featuresMenuNum && ' bg-color02_blue text-[#fff]'
+            } flex w-[18.66%] justify-center items-center max-w-[211px] h-[55px] border border-color02_blue rounded-md cursor-pointer text-color02_blue font-bold hover:bg-color02_blue hover:text-white transition-all`}
+            onMouseOver={() => menuHover(item.id)}
+            onMouseLeave={() => setMenuIconNum(0)}
+            onClick={() => clickMenu(item.id)}
+          >
+            <img
+              src={
+                item.id === menuIconNum || item.id === featuresMenuNum
+                  ? item.iconWhite
+                  : item.iconBlue
+              }
+              className="mr-1"
+            />
+            <p>{item.title}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

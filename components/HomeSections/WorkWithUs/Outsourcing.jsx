@@ -36,7 +36,7 @@ const LittleCards = [
 
 const LittleCard = ({ icon, title }) => {
   return (
-    <div>
+    <div className="w-[40%] md:w-[15%] mb-10 md:mb-0">
       <img src={icon} alt={title} />
       <p className=" text-color02_blue text-sm">{title}</p>
     </div>
@@ -52,7 +52,7 @@ const Outsourcing = () => {
         the capital for investment in your business.{' '}
         <span className="font-bold">The benefits of outsorcing are:</span>
       </p>
-      <div className="flex justify-between mt-[40px]">
+      <div className="flex flex-wrap justify-between mt-[40px]">
         {LittleCards.map((item) => (
           <LittleCard key={item.id} icon={item.icon} title={item.title} />
         ))}

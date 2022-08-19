@@ -18,7 +18,7 @@ const CasesSection = () => {
             See how we{' '}
             <span className="gradient_title ">empower with data</span>
           </h2>
-          <p className="text-center text-color03_black   mx-auto mb-[45px]">
+          <p className="roboto md:text-center text-color03_black   mx-auto mb-[45px]">
             We have provided solutions to the leaders of different industries.
             Your company will be a success story with us
           </p>
