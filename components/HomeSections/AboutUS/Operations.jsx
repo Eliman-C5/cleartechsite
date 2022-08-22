@@ -14,7 +14,12 @@ const Operations = () => {
       className="flex md:flex-row flex-col md:space-x-5"
     >
       {operations.map((d) => (
-        <Card title={d.title} imgsrc={d.imgsrc} charlist={d.charlist} />
+        <Card
+          title={d.title}
+          imgsrc={d.imgsrc}
+          charlist={d.charlist}
+          color={d.color}
+        />
       ))}
     </motion.div>
   );

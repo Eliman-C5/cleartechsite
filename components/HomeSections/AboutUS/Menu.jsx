@@ -4,38 +4,44 @@ const MenuItems = [
   {
     id: 1,
     title: 'Data & AI',
-    iconBlue: '/img/icons/knowhow/blue/dataAI.svg',
+    iconBlue: '/img/icons/knowhow/dataAI.svg',
     iconWhite: '/img/icons/knowhow/white/dataAI.svg',
+    color: 'dataAI',
   },
   {
     id: 2,
     title: 'Operations',
-    iconBlue: '/img/icons/knowhow/blue/operations.svg',
+    iconBlue: '/img/icons/knowhow/operations2.svg',
     iconWhite: '/img/icons/knowhow/white/operations.svg',
+    color: 'operations',
   },
   {
     id: 3,
     title: 'Product',
-    iconBlue: '/img/icons/knowhow/blue/product.svg',
+    iconBlue: '/img/icons/knowhow/product2.svg',
     iconWhite: '/img/icons/knowhow/white/product.svg',
+    color: 'product',
   },
   {
     id: 4,
     title: 'UX',
-    iconBlue: '/img/icons/knowhow/blue/ux.svg',
+    iconBlue: '/img/icons/knowhow/ux2.svg',
     iconWhite: '/img/icons/knowhow/white/ux.svg',
+    color: 'ux',
   },
   {
     id: 5,
     title: 'Quality',
-    iconBlue: '/img/icons/knowhow/blue/quality.svg',
+    iconBlue: '/img/icons/knowhow/quality2.svg',
     iconWhite: '/img/icons/knowhow/white/quality.svg',
+    color: 'quality',
   },
   {
     id: 6,
     title: 'Cloud',
-    iconBlue: '/img/icons/knowhow/blue/cloud.svg',
+    iconBlue: '/img/icons/knowhow/cloud2.svg',
     iconWhite: '/img/icons/knowhow/white/cloud.svg',
+    color: 'cloud',
   },
 ];
 
@@ -59,8 +65,12 @@ const Menu = () => {
           <div
             key={item.id}
             className={`${
-              item.id === workwithusMenuNum && ' bg-color02_blue text-[#fff]'
-            } flex w-[15.66%] justify-center items-center max-w-[180px] h-[55px] border border-color02_blue rounded-md cursor-pointer text-color02_blue font-bold hover:bg-color02_blue hover:text-white transition-all`}
+              item.id === workwithusMenuNum && `bg-${item.color} text-[#fff]`
+            } flex w-[15.66%]  justify-center items-center max-w-[180px] h-[55px] border rounded-md cursor-pointer font-bold hover:bg-${
+              item.color
+            } border-${item.color} text-${
+              item.color
+            } hover:text-white transition-all`}
             onMouseOver={() => menuHover(item.id)}
             onMouseLeave={() => setMenuIconNum(0)}
             onClick={() => clickMenu(item.id)}

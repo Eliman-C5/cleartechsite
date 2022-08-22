@@ -14,7 +14,12 @@ const Product = () => {
       className="flex md:flex-row flex-col justify-between"
     >
       {product.map((d) => (
-        <Card title={d.title} imgsrc={d.imgsrc} charlist={d.charlist} />
+        <Card
+          title={d.title}
+          imgsrc={d.imgsrc}
+          charlist={d.charlist}
+          color={d.color}
+        />
       ))}
     </motion.div>
   );

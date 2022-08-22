@@ -30,6 +30,7 @@ const links = [
 
 const MobileMenu = () => {
   const { mobileMenu, setMobileMenu } = useGeneralProvider();
+  //lockear el scroll cuando este en pantalla el componente
   useLockBodyScroll();
   return (
     <AnimatePresence>

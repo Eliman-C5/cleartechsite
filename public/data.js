@@ -43,6 +43,7 @@ export const aboutUsCards = {
       imgsrc: '/img/icons/knowhow/dataAI/analytics.svg',
       title: 'BI & Analytics',
       charlist: ['Reporting', 'Dashboards', 'Scorecards', 'Analytics'],
+      color: 'dataAI',
     },
     {
       imgsrc: '/img/icons/knowhow/dataAI/datamanagement.svg',
@@ -53,11 +54,13 @@ export const aboutUsCards = {
         'Master data management',
         'Big data',
       ],
+      color: 'dataAI',
     },
     {
       imgsrc: '/img/icons/knowhow/dataAI/datascience.svg',
       title: 'Data science',
       charlist: ['Predictive analysis', 'Machine learning', 'Cognitive'],
+      color: 'dataAI',
     },
   ],
   operations: [
@@ -67,6 +70,7 @@ export const aboutUsCards = {
       charlist: [
         'We lead the work of a team to achieve all project goals within the given constraints. ',
       ],
+      color: 'operations',
     },
     {
       imgsrc: '/img/icons/knowhow/operations/delivery.svg',
@@ -74,6 +78,7 @@ export const aboutUsCards = {
       charlist: [
         'We apply processes to ensure goods are effectively and efficiently transferred from one location to the next.',
       ],
+      color: 'operations',
     },
   ],
   product: [
@@ -83,6 +88,7 @@ export const aboutUsCards = {
       charlist: [
         "We create new products to meet customer's needs in a novel way. ",
       ],
+      color: 'product',
     },
     {
       imgsrc: '/img/icons/knowhow/product/innovation.svg',
@@ -90,6 +96,7 @@ export const aboutUsCards = {
       charlist: [
         'We process to inspire and create new innovative experiments (that have a strategic impact on your organization).',
       ],
+      color: 'product',
     },
     {
       imgsrc: '/img/icons/knowhow/product/landing.svg',
@@ -97,6 +104,7 @@ export const aboutUsCards = {
       charlist: [
         'We design to promote products and we take the responsible of the product. ',
       ],
+      color: 'product',
     },
   ],
   ux: [
@@ -106,6 +114,7 @@ export const aboutUsCards = {
       charlist: [
         'We design good user experience by making, creating, and organizing the interfaces people interact with. ',
       ],
+      color: 'ux',
     },
     {
       imgsrc: '/img/icons/knowhow/ux/digital.svg',
@@ -113,6 +122,7 @@ export const aboutUsCards = {
       charlist: [
         'We advertise delivered through digital channels to promote brands and connect potential customers using  forms of digital communication.',
       ],
+      color: 'ux',
     },
     {
       imgsrc: '/img/icons/knowhow/ux/content.svg',
@@ -120,6 +130,7 @@ export const aboutUsCards = {
       charlist: [
         'We use different technologies that supports the collection, managing, and publishing of information in any form or medium. ',
       ],
+      color: 'ux',
     },
   ],
   quality: [
@@ -129,11 +140,13 @@ export const aboutUsCards = {
       charlist: [
         'We review and validate software products to make sure them meet predefined quality standards. ',
       ],
+      color: 'quality',
     },
     {
       imgsrc: '/img/icons/knowhow/quality/data_qua.svg',
       title: 'Data Quality Testing ',
       charlist: ['We make manual verification process.'],
+      color: 'quality',
     },
     {
       imgsrc: '/img/icons/knowhow/quality/data_gov.svg',
@@ -141,6 +154,7 @@ export const aboutUsCards = {
       charlist: [
         'We manage the availability, usability, integrity and security of the data in enterprise systems. ',
       ],
+      color: 'quality',
     },
   ],
   cloud: [
@@ -150,6 +164,7 @@ export const aboutUsCards = {
       charlist: [
         'We design to provide easy, affordable access to applications and resources. Furthermore, we move data to a cloud computing environment. ',
       ],
+      color: 'cloud',
     },
     {
       imgsrc: '/img/icons/knowhow/cloud/devops.svg',
@@ -157,6 +172,7 @@ export const aboutUsCards = {
       charlist: [
         "We combine philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity.",
       ],
+      color: 'cloud',
     },
     {
       imgsrc: '/img/icons/knowhow/cloud/intra.svg',
@@ -164,6 +180,7 @@ export const aboutUsCards = {
       charlist: [
         'We provide security to protect infrastructure, especially critical infrastructure.',
       ],
+      color: 'cloud',
     },
   ],
 };

@@ -14,7 +14,12 @@ const DataAI = () => {
       className="flex md:flex-row flex-col justify-between"
     >
       {dataAI.map((d) => (
-        <Card title={d.title} imgsrc={d.imgsrc} charlist={d.charlist} />
+        <Card
+          title={d.title}
+          imgsrc={d.imgsrc}
+          charlist={d.charlist}
+          color={d.color}
+        />
       ))}
     </motion.div>
   );
