@@ -20,13 +20,17 @@ const Goal = ({ title, desc }) => {
 const Value = () => {
   return (
     <Section>
-      <article className="flex">
+      <article className="flex lg:flex-row flex-col">
         <div className=" lg:hidden xl:block xl:basis-1/2">
-          <img src="/img/services/value.png" alt="our value proposal" />
+          <img
+            src="/img/services/value.png"
+            alt="our value proposal"
+            className="mb-[25px] lg:mb-0"
+          />
         </div>
         <div className=" xl:basis-1/2">
           <h2
-            className="tittles"
+            className="tittles  "
             style={{ marginBottom: '20px', textAlign: 'left' }}
           >
             Our <span className="gradient_title ">value proposal</span>

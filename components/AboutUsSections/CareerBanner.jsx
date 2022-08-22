@@ -11,13 +11,13 @@ const CareerBanner = () => {
       }}
     >
       <Section>
-        <div className="h-[170px] flex items-center">
-          <div className="flex-1">
+        <div className="h-[170px] flex flex-col justify-center lg:flex-row items-center">
+          <div className="lg:flex-1">
             <h2
               className="tittles"
               style={{ marginBottom: '20px', textAlign: 'left' }}
             >
-              Why <span className="gradient_title ">choose us</span>
+              Join <span className="gradient_title ">our team</span>
             </h2>
             <p className="roboto  text-color03_black mb-[15px]">
               See our current positions
