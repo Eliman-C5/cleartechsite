@@ -294,3 +294,53 @@ export const team = [
     linkedinlink: '/',
   },
 ];
+
+export const serviceCards = [
+  {
+    id: 1,
+    icon: '/img/icons/knowhow/white/operations.svg',
+    title: 'Operations',
+    color: 'operations',
+    charlist: ['Project management', 'Delivery Management'],
+  },
+  {
+    id: 2,
+    icon: '/img/icons/knowhow/white/product.svg',
+    title: 'Product',
+    color: 'product',
+    charlist: [
+      'Product Innovation',
+      'Innovation as a service',
+      'Product Landing',
+      'Product owner',
+    ],
+  },
+  {
+    id: 3,
+    icon: '/img/icons/knowhow/white/ux.svg',
+    title: 'UX',
+    color: 'ux',
+    charlist: ['UX Design', 'Digital marketing', 'Content management'],
+  },
+  {
+    id: 4,
+    icon: '/img/icons/knowhow/white/dataAI.svg',
+    title: 'Data & AI',
+    color: 'dataAI',
+    charlist: ['BI & Analitycs', 'Data management', 'Data science'],
+  },
+  {
+    id: 5,
+    icon: '/img/icons/knowhow/white/quality.svg',
+    title: 'Quality',
+    color: 'quality',
+    charlist: ['Test automation', 'Data quality testing', 'Data governance'],
+  },
+  {
+    id: 6,
+    icon: '/img/icons/knowhow/white/cloud.svg',
+    title: 'Cloud',
+    color: 'cloud',
+    charlist: ['Cloud services', 'Migration', 'Infra and Security', 'DevOps'],
+  },
+];

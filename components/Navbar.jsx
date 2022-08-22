@@ -29,11 +29,13 @@ const Navbar = () => {
   return (
     <nav className="w-full h-[75px] absolute top-0 border-b border-b-[#AFBDFF] z-30">
       <div className="max-w-[1146px] w-[86%] mx-auto flex items-center justify-between h-full">
-        <img
-          src="/img/cleartech_log.png"
-          alt="cleartech logo"
-          className=" cursor-pointer"
-        />
+        <Link href={'/'}>
+          <img
+            src="/img/cleartech_log.png"
+            alt="cleartech logo"
+            className=" cursor-pointer"
+          />
+        </Link>
         <div className="md:flex space-x-8 items-center hidden ">
           {links.map((link) => (
             <Link href={link.src} key={link.id}>
