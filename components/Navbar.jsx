@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { useGeneralProvider } from 'context/GeneralProvider';
+import MobileMenuButton from 'components/MobileMenuButton';
+import { motion } from 'framer-motion';
 const links = [
   {
     id: '1',
@@ -49,12 +51,13 @@ const Navbar = () => {
           Get in touch
         </button>
         <div
-          className="w-[30px] h-[27px] mr md:hidden flex flex-col justify-between"
+          className="  md:hidden flex flex-col justify-between"
           onClick={() => setMobileMenu(!mobileMenu)}
         >
-          <div className="h-[1px]  w-full bg-color03_black"></div>
+          {/*          <div className="h-[1px]  w-full bg-color03_black"></div>
           <div className="h-[1px]  w-[50%] bg-color03_black ml-auto"></div>
-          <div className="h-[1px]  w-full bg-color03_black"></div>
+          <div className="h-[1px]  w-full bg-color03_black"></div> */}
+          <MobileMenuButton />
         </div>
       </div>
     </nav>
