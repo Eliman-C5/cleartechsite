@@ -16,7 +16,11 @@ const ProvideRows = () => {
                     className={`w-[23%]  `}
                     style={{ width: `${item.title === 'Cognitive' && '50%'}` }}
                   >
-                    <img src={item.icon} alt={item.title} className="mb-2" />
+                    <img
+                      src={item.icon}
+                      alt={item.title}
+                      className="mb-2 w-[30px] h-[30px]"
+                    />
                     <p className=" text-color03_black  roboto mb-2">
                       {item.title}
                     </p>

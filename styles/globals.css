@@ -40,6 +40,10 @@ body {
   border-radius: 9.7094px;
 }
 
+.industry_card {
+  box-shadow: 0px 4px 21px rgba(117, 117, 117, 0.25);
+}
+
 @media (min-width: 1550px) {
   .margin_for_choose_section {
     margin-left: auto;

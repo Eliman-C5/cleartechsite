@@ -428,3 +428,42 @@ export const provide = [
     ],
   },
 ];
+
+export const industries = [
+  {
+    id: 1,
+    icon: '/img/icons/services/industries/health.svg',
+    title: 'Digital Health',
+    desc: 'Introduce neurol networks into your mobile app and products to analyze user data and provide accurate services.',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/services/industries/icono.svg',
+    title: 'Advertising',
+    desc: 'Improve your advertising capabilities through AI and advanced social media analytics.',
+  },
+  {
+    id: 3,
+    icon: '/img/icons/services/industries/ecommerce.svg',
+    title: 'Retail and E-commerce',
+    desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
+  },
+  {
+    id: 4,
+    icon: '/img/icons/services/industries/financial.svg',
+    title: 'Financial Services',
+    desc: 'Optimize your processes and improve internal safety and security through custom. AI solutions and data science services.',
+  },
+  {
+    id: 5,
+    icon: '/img/icons/services/industries/entretenimiento.svg',
+    title: 'Entertainment',
+    desc: 'Automate customer feedback analysis and analyze enormous amounts of data to become more productive.',
+  },
+  {
+    id: 6,
+    icon: '/img/icons/services/industries/industry.svg',
+    title: 'Your Industry',
+    desc: 'From a different industry? Contact us for data science consulting and learn how our AI company can add value to your business.',
+  },
+];

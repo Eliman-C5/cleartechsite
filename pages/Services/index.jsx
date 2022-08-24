@@ -2,6 +2,7 @@ import React from 'react';
 import PageHeader from 'components/Atoms/PageHeader';
 import ServicesCards from 'components/ServicesSections/ServicesCards';
 import Provide from 'components/ServicesSections/Provide';
+import Industries from 'components/ServicesSections/Industries';
 const index = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const index = () => {
       />
       <ServicesCards />
       <Provide />
+      <Industries />
     </div>
   );
 };
