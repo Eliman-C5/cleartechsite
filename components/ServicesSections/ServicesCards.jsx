@@ -9,7 +9,7 @@ const ServicesCards = () => {
       <h2 className="tittles" style={{ marginBottom: '20px' }}>
         This is how we group our people
       </h2>
-      <div className="flex flex-wrap justify-evenly">
+      <div className="flex flex-wrap justify-between">
         {serviceCards.map((item) => (
           <ServiceCard
             key={item.id}

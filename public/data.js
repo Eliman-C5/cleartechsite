@@ -344,3 +344,87 @@ export const serviceCards = [
     charlist: ['Cloud services', 'Migration', 'Infra and Security', 'DevOps'],
   },
 ];
+
+export const provide = [
+  {
+    sectionTitle: 'BI & Analytics',
+    data: [
+      {
+        id: 1,
+        icon: 'img/icons/services/bianalytics/analytics.svg',
+        title: 'Reporting',
+        desc: 'Individual business reporting.',
+      },
+      {
+        id: 2,
+        icon: 'img/icons/services/bianalytics/dashboards.svg',
+        title: 'Dashboards',
+        desc: 'Unified key performance indicators in a graphical interface.',
+      },
+      {
+        id: 3,
+        icon: 'img/icons/services/bianalytics/scoreboards.svg',
+        title: 'Scoreboards',
+        desc: 'Comprehensive enterprise-wide executive-level reports.',
+      },
+      {
+        id: 4,
+        icon: 'img/icons/services/bianalytics/analytics.svg',
+        title: 'Analytics',
+        desc: 'Suite of reports that allow quick, self-service analysis of business performance.',
+      },
+    ],
+  },
+  {
+    sectionTitle: 'Data management',
+    data: [
+      {
+        id: 1,
+        icon: 'img/icons/services/datamanagement/system.svg',
+        title: 'System integration',
+        desc: 'Seamless and Platform-Agnostic Connectivity.',
+      },
+      {
+        id: 2,
+        icon: 'img/icons/services/datamanagement/warehouse.svg',
+        title: 'Data warehouse',
+        desc: 'A simplified centralized, multi-system data depository.',
+      },
+      {
+        id: 3,
+        icon: 'img/icons/services/datamanagement/master.svg',
+        title: 'Master data management',
+        desc: 'Standardize enterprise metric governance and definitions.',
+      },
+      {
+        id: 4,
+        icon: 'img/icons/services/datamanagement/bigdata.svg',
+        title: 'Big data',
+        desc: 'Easy analysis of large structured and unstructured data.',
+      },
+    ],
+  },
+  {
+    sectionTitle: 'Data science',
+    data: [
+      {
+        id: 1,
+        icon: 'img/icons/services/datascience/analysis.svg',
+        title: 'Predictive analysis',
+        desc: 'Use past information to predict future outcomes.',
+      },
+      {
+        id: 2,
+        title: 'Machine learning',
+        icon: 'img/icons/services/datascience/learning.svg',
+        desc: 'Progressive learning from continuous comparisons between predicted results.',
+      },
+      {
+        id: 3,
+        title: 'Cognitive',
+        icon: 'img/icons/services/datascience/cognitive.svg',
+        desc: 'Between predicted results simulate human thought processes ih a computerized model (ie. image/voice recognition, natural language.',
+      },
+    ],
+  },
+];

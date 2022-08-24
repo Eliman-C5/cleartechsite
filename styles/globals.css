@@ -31,6 +31,15 @@ body {
   margin-left: auto;
 }
 
+.service_card {
+  box-shadow: rgba(67, 97, 238, 0.21) 0px 10px 40px;
+  border-radius: 9.7094px;
+}
+.provide_row {
+  box-shadow: 0px 0.97094px 3.88376px rgba(0, 0, 0, 0.1);
+  border-radius: 9.7094px;
+}
+
 @media (min-width: 1550px) {
   .margin_for_choose_section {
     margin-left: auto;

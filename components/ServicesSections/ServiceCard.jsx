@@ -2,14 +2,7 @@ import React from 'react';
 
 const ServiceCard = ({ icon, title, color, charlist }) => {
   return (
-    <div
-      className="w-full max-w-[360px] h-auto lg:h-[291px] pb-[30px] lg:pb-0 mb-[30px]  "
-      style={{
-        boxShadow:
-          'rgba(67, 97, 238, 0.21) 0px 10px 40px; border-radius: 9.7094px',
-      }}
-    >
-      {' '}
+    <div className="w-full max-w-[360px] h-auto lg:h-[291px] pb-[30px] lg:pb-0 mb-[30px] service_card">
       <div className="w-[90%] mx-auto">
         <div
           className={`w-[60px] h-[60px] bg-${color} flex justify-center rounded-md my-[30px] items-center`}
