@@ -3,6 +3,7 @@ import PageHeader from 'components/Atoms/PageHeader';
 import ServicesCards from 'components/ServicesSections/ServicesCards';
 import Provide from 'components/ServicesSections/Provide';
 import Industries from 'components/ServicesSections/Industries';
+import Support from '../../components/ServicesSections/Support';
 const index = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const index = () => {
       <ServicesCards />
       <Provide />
       <Industries />
+      <Support />
     </div>
   );
 };
