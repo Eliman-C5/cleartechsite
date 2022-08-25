@@ -13,7 +13,7 @@ const Path = (props) => (
 const MobileMenuButton = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   return (
-    <button onClick={() => toggleOpen()}>
+    <button>
       <svg width="33" height="29" viewBox="0 0 33 29">
         <Path
           animate={isOpen ? 'open' : 'closed'}

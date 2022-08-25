@@ -38,7 +38,7 @@ const ThreeCases = () => {
           }}
         >
           {cases.map((c) => (
-            <SwiperSlide>
+            <SwiperSlide key={c.id}>
               <Card
                 key={c.id}
                 imgsrc={c.img}

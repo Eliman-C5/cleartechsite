@@ -15,6 +15,7 @@ const DataAI = () => {
     >
       {dataAI.map((d) => (
         <Card
+          key={d.title}
           title={d.title}
           imgsrc={d.imgsrc}
           charlist={d.charlist}

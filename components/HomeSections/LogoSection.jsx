@@ -15,7 +15,11 @@ const LogoSection = () => {
         </h2>
         <div className="lg:flex items-center hidden justify-between">
           {logos.map((l) => (
-            <img src={`/img/logos/${l.src}.png`} alt={`logo de ${l.src}`} />
+            <img
+              src={`/img/logos/${l.src}.png`}
+              alt={`logo de ${l.src}`}
+              key={l.id}
+            />
           ))}
         </div>
         <div className="lg:hidden">

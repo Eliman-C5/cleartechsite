@@ -15,6 +15,7 @@ const ProvideRows = () => {
                   <div
                     className={`w-[23%]  `}
                     style={{ width: `${item.title === 'Cognitive' && '50%'}` }}
+                    key={item.id}
                   >
                     <img
                       src={item.icon}

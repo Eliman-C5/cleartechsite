@@ -38,7 +38,10 @@ const Footer = () => {
           <div className=" mr-[120px]">
             <p className="gradient_title">Links</p>
             {links.map((li) => (
-              <p className=" text-color03_black roboto  cursor-pointer">
+              <p
+                className=" text-color03_black roboto  cursor-pointer"
+                key={li.id}
+              >
                 {li.title}
               </p>
             ))}

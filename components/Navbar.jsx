@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useGeneralProvider } from 'context/GeneralProvider';
 import MobileMenuButton from 'components/MobileMenuButton';
+import Button from './Atoms/Button';
 import { motion } from 'framer-motion';
 const links = [
   {
@@ -38,7 +39,7 @@ const Navbar = () => {
             className=" cursor-pointer"
           />
         </Link>
-        <div className="md:flex space-x-8 items-center hidden ">
+        <div className="lg:flex space-x-8 items-center hidden ">
           {links.map((link) => (
             <Link href={link.src} key={link.id}>
               <p className="text-color03_black  text-sm cursor-pointer">
@@ -47,11 +48,14 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <button className="md:block hidden text-white  font-bold text-sm bg-color02_blue  px-[30px] py-[10px] rounded-md  ">
+        <div className="hidden lg:block">
+          <Button title={'Get in touch'} contactButton />
+        </div>
+        {/*         <button className="md:block hidden text-white  font-bold text-sm bg-color02_blue  px-[30px] py-[10px] rounded-md  ">
           Get in touch
-        </button>
+        </button> */}
         <div
-          className="  md:hidden flex flex-col justify-between"
+          className="  lg:hidden flex flex-col justify-between"
           onClick={() => setMobileMenu(!mobileMenu)}
         >
           {/*          <div className="h-[1px]  w-full bg-color03_black"></div>

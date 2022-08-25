@@ -30,11 +30,11 @@ const Result = () => {
           />
         </div>
         <div className="absolute hidden lg:block bottom-[-20px]">
-          <Button title="Talk with us" />
+          <Button title="Talk with us" contactButton />
         </div>
       </article>
       <div className=" lg:hidden  flex justify-center bottom-[-20px]">
-        <Button title="Talk with us" />
+        <Button title="Talk with us" contactButton />
       </div>
     </FadeSection>
   );

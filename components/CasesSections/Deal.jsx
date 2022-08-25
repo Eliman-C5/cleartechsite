@@ -19,7 +19,7 @@ const Deal = ({ deal_data }) => {
         ))}
       </div>
       <div className="flex justify-center mt-[30px]">
-        <Button title="Talk with us" />
+        <Button title="Talk with us" contactButton />
       </div>
     </Section>
   );

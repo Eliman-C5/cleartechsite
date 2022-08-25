@@ -22,7 +22,11 @@ const HeroSection = () => {
             {/*button container*/}
             <div className="w-full md:justify-center justify-start items-start md:items-center flex md:flex-row  flex-col mt-[35px] md:space-x-10 mb-[90px]">
               <div className="mb-[30px] md:mb-0">
-                <Button title={'Know how'} />
+                <Button
+                  title={'Know how'}
+                  contactButton={false}
+                  link={'/Services'}
+                />
               </div>
               <div className="flex justify-center items-center space-x-2">
                 <img src="/img/play_button.svg" alt="play button" />

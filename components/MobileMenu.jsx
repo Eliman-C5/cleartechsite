@@ -69,7 +69,7 @@ const MobileMenu = () => {
               ))}
             </motion.div>
             <div className="w-[81%] mx-auto mt-10">
-              <Button title={'Get in Touch'} />
+              <Button title={'Get in Touch'} contactButton />
             </div>
           </motion.div>
         </motion.div>

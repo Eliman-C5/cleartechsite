@@ -24,7 +24,7 @@ const CasesSection = () => {
           </p>
           <ThreeCases />
           <div className="flex justify-center mt-[35px]">
-            <Button title={'Talk with us'} />
+            <Button title={'Talk with us'} contactButton />
           </div>
         </Section>
       </div>

@@ -52,7 +52,7 @@ const Industries = () => {
           }}
         >
           {industries.map((item) => (
-            <SwiperSlide>
+            <SwiperSlide key={item.id}>
               <div
                 className="industry_card h-[125px] w-full px-4 py-2 mb-5"
                 key={item.id}
@@ -76,7 +76,7 @@ const Industries = () => {
         </button>
       </div>
       <div className="flex justify-center mt-[30px]">
-        <Button title="Talk with us" />
+        <Button title="Talk with us" contactButton />
       </div>
     </Section>
   );
