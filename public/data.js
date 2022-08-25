@@ -494,3 +494,24 @@ export const support = [
     desc: 'Provide your company with breakthrough insights that empower you to act in a competitive environment. Pick the tool, pick the process. On-site or web; one-on-one or groups.',
   },
 ];
+
+export const deal_bimbo = [
+  {
+    id: 1,
+    icon: '/img/icons/services/support/carbon_user-data.svg',
+    title: 'Strategic Planning & Consulting',
+    desc: 'Define your company’s direction and develop plans to realize your business objectives. You will maintain your competitive advantage and allocate resources appropriately.    ',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/services/support/calendar.svg',
+    title: 'Solution Development & Maintenance    ',
+    desc: 'We create custom solutions, adapted to each client, industry and role, to help you overcome your organization’s challenges.    ',
+  },
+  {
+    id: 3,
+    icon: '/img/icons/services/support/carbon_settings-services.png',
+    title: 'Outsourced Managed Services',
+    desc: 'Reduce costs and gain peace of mind with world-class resources working with and for you. Let us do the heavy work so you can focus on your company’s core areas to develop your brand.    ',
+  },
+];

@@ -9,9 +9,9 @@ export default function useLockBodyScroll() {
     const originalStyle = window.getComputedStyle(document.body).overflow;
     // Prevent scrolling on mount
     if (mobileMenu === true) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflowY = 'hidden';
     } else {
-      document.body.style.overflow = 'scroll';
+      document.body.style.overflowY = 'scroll';
     }
     // Re-enable scrolling when component unmounts
     return () => (document.body.style.overflow = originalStyle);
