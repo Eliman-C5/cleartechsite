@@ -3,7 +3,7 @@ import PageHeader from 'components/Atoms/PageHeader';
 import Challenge from '../../components/CasesSections/Challenge';
 import Deal from '../../components/CasesSections/Deal';
 import { deal_bimbo } from '../../public/data';
-import Result from '../../components/CasesSections/results';
+import Result from '../../components/CasesSections/Results';
 const Bimbo = () => {
   return (
     <div>
