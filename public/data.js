@@ -191,21 +191,21 @@ export const cases = [
     img: '/img/cases/bimbo.png',
     title: 'Bimbo',
     desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
-    link: '/',
+    link: '/cases/Bimbo',
   },
   {
     id: 2,
     img: '/img/cases/commonareas.png',
     title: 'Common areas',
     desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
-    link: '/',
+    link: '/cases/NFP',
   },
   {
     id: 3,
     img: '/img/cases/ttec.png',
     title: 'TTEC',
     desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
-    link: '/',
+    link: '/cases/TTEC',
   },
 ];
 
@@ -498,20 +498,136 @@ export const support = [
 export const deal_bimbo = [
   {
     id: 1,
-    icon: '/img/icons/services/support/carbon_user-data.svg',
-    title: 'Strategic Planning & Consulting',
-    desc: 'Define your company’s direction and develop plans to realize your business objectives. You will maintain your competitive advantage and allocate resources appropriately.    ',
+    icon: '/img/icons/services/support/carbon_settings-services.png',
+    title: 'Data Warehouse',
+    desc: 'Construction and modeling of the corporate Data Warehouse 100% in Azure.',
   },
   {
     id: 2,
     icon: '/img/icons/services/support/calendar.svg',
-    title: 'Solution Development & Maintenance    ',
-    desc: 'We create custom solutions, adapted to each client, industry and role, to help you overcome your organization’s challenges.    ',
+    title: 'New comercial and customize tool    ',
+    desc: 'Development of loads with Azure Data Factory and Data Warehouse modeled on Azure Synapse.',
   },
   {
     id: 3,
+    icon: '/img/icons/services/support/carbon_user-data.svg',
+    title: 'Reports with great precision',
+    desc: 'Dimensional model designed for the use of MPP (Multi Parallel Processing) architecture.     ',
+  },
+];
+
+export const bimbo_resultData = [
+  {
+    id: 1,
+    icon: '/img/icons/aboutus/global.svg',
+    title: 'A meeting point of data',
+    desc: 'Conversion of data from numerous source systems into a common format',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/aboutus/costs.svg',
+    title: 'Global vision',
+    desc: 'Allowing automation for calculating countries profitability.',
+  },
+  {
+    id: 3,
+    icon: '/img/icons/aboutus/workforce.svg',
+    title: 'UX Excelent',
+    desc: 'Easy-to-use and accessible reporting and dashboards.',
+  },
+];
+
+export const deal_NFP = [
+  {
+    id: 1,
     icon: '/img/icons/services/support/carbon_settings-services.png',
+    title: 'Data Warehouse',
+    desc: 'Clear-Tech began by setting up a parallel Data Warehouse, which fed from the same DCS, and structured the internal Model in layers, each with data refined to a different degree.    ',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/services/support/calendar.svg',
+    title: 'New comercial and customize tool    ',
+    desc: 'We developed a tool to capture Business Rules straight from business users and apply them to the information in the Warehouse, which led to the creation of a final layer with trusted data.    .',
+  },
+  {
+    id: 3,
+    icon: '/img/icons/services/support/carbon_user-data.svg',
+    title: 'Reports with great precision',
+    desc: 'Reports based on this new source had an accuracy close to 100%.   ',
+  },
+];
+
+export const NFP_resultData = [
+  {
+    id: 1,
+    icon: '/img/icons/aboutus/global.svg',
+    title: 'New Warehouse',
+    desc: 'Clear-Tech started receiving requirements to set up ETL processes in the new Warehouse and publish the results in Reports, at the same time that the equivalent ETLs were decommissioned from the older Warehouse.  ',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/aboutus/costs.svg',
+    title: 'Improvement in Reports',
+    desc: "An increasing number of Reports, now with trusted information, is currently under Clear's responsibility, and our client's stakeholders have noticed the improvement. ",
+  },
+  {
+    id: 3,
+    icon: '/img/icons/aboutus/workforce.svg',
+    title: 'Roadmap',
+    desc: "There is now a roadmap in place to shut down the older Warehouse entirely and transfer all processes to Clear-Tech's direct overview.     ",
+  },
+  {
+    id: 4,
+    icon: '/img/icons/aboutus/peoples.svg',
+    title: 'Customer success',
+    desc: 'We will own management of all ETL, Warehouse and Reporting processes, with the recently signed Managed Services contract with this satisfied customer.    ',
+  },
+];
+export const deal_TTEC = [
+  {
+    id: 1,
+    icon: '/img/icons/services/support/carbon_settings-services.png',
+    title: 'A customize and innovative product',
+    desc: 'A product was built with GCP and a front end based on React and Node.JS that connects the telephone switches and consumes data in real time    ',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/services/support/calendar.svg',
+    title: 'Comparison for better results   ',
+    desc: 'Allows comparison between what the agent was doing, versus what it should have been doing, based on flexible preconfigured rules.',
+  },
+  {
+    id: 3,
+    icon: '/img/icons/services/support/carbon_user-data.svg',
     title: 'Outsourced Managed Services',
-    desc: 'Reduce costs and gain peace of mind with world-class resources working with and for you. Let us do the heavy work so you can focus on your company’s core areas to develop your brand.    ',
+    desc: 'Triggers alerts to keep the supervisors aware and be able to act faster, without losing revenue.    ',
+  },
+];
+
+export const TTEC_resultData = [
+  {
+    id: 1,
+    icon: '/img/icons/aboutus/global.svg',
+    title: 'Real time view',
+    desc: 'Ability to get a real-time view of agent statuses without logging into Aspect or other WFM tools.     ',
+  },
+  {
+    id: 2,
+    icon: '/img/icons/aboutus/costs.svg',
+    title: 'Technology-driven ',
+    desc: 'agent tracking and tagging on appropriate statuses in WFM: benefits TLs, WFM specialists and agents alike.     ',
+  },
+  {
+    id: 3,
+    icon: '/img/icons/aboutus/workforce.svg',
+    title: 'Paradigm shift ',
+    desc: 'from action-based operations to an information-driven platform.    ',
+  },
+  {
+    id: 4,
+    icon: '/img/icons/aboutus/peoples.svg',
+    title: 'Optimization cost',
+    desc: 'Optimal long-term operational cost by reusing human hours spent on system interactions to other productive areas of operation.     ',
   },
 ];

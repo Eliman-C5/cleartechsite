@@ -6,7 +6,7 @@ import Button from 'components/Atoms/Button';
 
 const Choose = () => {
   return (
-    <FadeSection>
+    <FadeSection className={'overflow-hidden'}>
       <div className="w-[86%] lg:w-full mx-auto">
         <h2 className="tittles" style={{ marginBottom: '20px' }}>
           Why <span className="gradient_title ">choose us</span>
@@ -16,7 +16,7 @@ const Choose = () => {
           analysts, developers and business leaders.
         </p>
       </div>
-      <article className="max-w-[1146px] lg:h-[680px] flex  items-center mx-auto  relative">
+      <article className="max-w-[1146px] lg:h-[720px] flex  items-center mx-auto  relative">
         <div className=" flex md:flex-wrap flex-col md:flex-row w-[86%] mx-auto lg:mx-0 lg:w-[545px] h-auto lg:h-[80%] items-end">
           {choosecards.map((c) => (
             <IconCard key={c.id} icon={c.icon} title={c.title} desc={c.desc} />
@@ -29,7 +29,7 @@ const Choose = () => {
             className="hidden lg:block"
           />
         </div>
-        <div className="absolute hidden lg:block bottom-[-20px]">
+        <div className="absolute hidden lg:block bottom-[26px]">
           <Button title="Talk with us" contactButton />
         </div>
       </article>

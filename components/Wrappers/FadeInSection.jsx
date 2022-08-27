@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-const FadeInSection = ({ children }) => {
+const FadeInSection = ({ children, className }) => {
   const variants = {
     visible: {
       opacity: 1,
@@ -27,6 +27,7 @@ const FadeInSection = ({ children }) => {
       initial="hidden"
       animate={controls}
       variants={variants}
+      className={className}
     >
       {children}
     </motion.div>

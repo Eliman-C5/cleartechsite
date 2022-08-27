@@ -4,10 +4,10 @@ import IconCard from '../Atoms/IconCard';
 import { choosecards } from '../../public/data';
 import Button from 'components/Atoms/Button';
 
-const Result = () => {
+const Result = ({ results_data }) => {
   return (
-    <FadeSection>
-      <div className="w-[86%] lg:w-full mx-auto">
+    <FadeSection className={'overflow-hidden'}>
+      <div className="w-[86%]  lg:w-full mx-auto">
         <h2 className="tittles" style={{ marginBottom: '20px' }}>
           The <span className="gradient_title ">results</span>
         </h2>
@@ -16,9 +16,9 @@ const Result = () => {
           analysts, developers and business leaders.
         </p>
       </div>
-      <article className="max-w-[1146px] lg:h-[680px] flex  items-center mx-auto  relative">
+      <article className="max-w-[1146px] lg:h-[720px] flex  items-center mx-auto   relative">
         <div className=" flex md:flex-wrap flex-col md:flex-row w-[86%] mx-auto lg:mx-0 lg:w-[545px] h-auto lg:h-[80%] items-end">
-          {choosecards.map((c) => (
+          {results_data.map((c) => (
             <IconCard key={c.id} icon={c.icon} title={c.title} desc={c.desc} />
           ))}
         </div>
@@ -29,7 +29,7 @@ const Result = () => {
             className="hidden lg:block"
           />
         </div>
-        <div className="absolute hidden lg:block bottom-[-20px]">
+        <div className="absolute hidden lg:block bottom-[10px]">
           <Button title="Talk with us" contactButton />
         </div>
       </article>

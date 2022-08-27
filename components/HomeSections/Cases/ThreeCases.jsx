@@ -13,7 +13,7 @@ import { Pagination, Navigation } from 'swiper';
 
 const ThreeCases = () => {
   return (
-    <>
+    <div id="cases">
       <div className="hidden md:flex justify-between">
         {cases.map((c) => (
           <Card
@@ -56,7 +56,7 @@ const ThreeCases = () => {
           <img src="/img/Right.svg" alt="left" />
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

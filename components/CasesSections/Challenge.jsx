@@ -20,7 +20,7 @@ const Challenge = ({ list, img }) => {
             ))}
           </ul>
         </div>
-        <div className="w-[45%]">
+        <div className="w-[45%] flex items-center">
           <img src={img} alt="the cahllenge" />
         </div>
       </article>

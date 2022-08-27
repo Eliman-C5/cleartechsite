@@ -2,7 +2,7 @@ import React from 'react';
 import PageHeader from 'components/Atoms/PageHeader';
 import Challenge from '../../components/CasesSections/Challenge';
 import Deal from '../../components/CasesSections/Deal';
-import { deal_bimbo } from '../../public/data';
+import { deal_bimbo, bimbo_resultData } from '../../public/data';
 import Result from '../../components/CasesSections/Results';
 const Bimbo = () => {
   return (
@@ -20,7 +20,7 @@ const Bimbo = () => {
         img={'/img/cases/challenge_bimbo.png'}
       />
       <Deal deal_data={deal_bimbo} />
-      <Result />
+      <Result results_data={bimbo_resultData} />
     </div>
   );
 };

@@ -13,7 +13,7 @@ const links = [
   {
     id: '2',
     title: 'Use Cases',
-    src: '/',
+    src: '/#cases',
   },
   {
     id: '3',
