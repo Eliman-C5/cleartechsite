@@ -3,35 +3,59 @@ import Link from 'next/link';
 import { useGeneralProvider } from 'context/GeneralProvider';
 import MobileMenuButton from 'components/MobileMenuButton';
 import Button from './Atoms/Button';
-import { motion } from 'framer-motion';
+import DropdownMenu from '../components/DropdownMenu';
+
 const links = [
   {
-    id: '1',
+    id: 1,
     title: 'Solutions',
     src: '/Services',
   },
   {
-    id: '2',
+    id: 2,
     title: 'Use Cases',
     src: '/#cases',
   },
   {
-    id: '3',
+    id: 3,
     title: 'About us',
     src: '/AboutUs',
   },
   {
-    id: '4',
+    id: 4,
     title: 'Blog',
     src: '/',
   },
 ];
 
+const casesMenu = [
+  {
+    id: 1,
+    title: 'Bimbo',
+    src: '/cases/Bimbo',
+  },
+  {
+    id: 2,
+    title: 'NFP',
+    src: '/cases/NFP',
+  },
+  {
+    id: 3,
+    title: 'TTEC',
+    src: '/cases/TTEC',
+  },
+];
+
 const Navbar = () => {
-  const { mobileMenu, setMobileMenu } = useGeneralProvider();
+  const { mobileMenu, setMobileMenu, dropMenu, setDropMenu } =
+    useGeneralProvider();
+
+  const hoverNavbar = (id) => {
+    id === 2 ? setDropMenu(true) : setDropMenu(false);
+  };
   return (
     <nav className="w-full h-[75px] absolute top-0 border-b border-b-[#AFBDFF] z-30">
-      <div className="max-w-[1146px] w-[86%] mx-auto flex items-center justify-between h-full">
+      <div className="max-w-[1146px] w-[86%] mx-auto relative flex items-center justify-between h-full">
         <Link href={'/'}>
           <img
             src="/img/cleartech_log.png"
@@ -42,11 +66,15 @@ const Navbar = () => {
         <div className="lg:flex space-x-8 items-center hidden ">
           {links.map((link) => (
             <Link href={link.src} key={link.id}>
-              <p className="text-color03_black  text-sm cursor-pointer">
+              <p
+                className="text-color03_black  text-sm cursor-pointer"
+                onMouseEnter={() => hoverNavbar(link.id)}
+              >
                 {link.title}
               </p>
             </Link>
           ))}
+          <DropdownMenu data={casesMenu} />
         </div>
         <div className="hidden lg:block">
           <Button title={'Get in touch'} contactButton />

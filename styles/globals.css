@@ -50,6 +50,19 @@ body {
 textarea {
   resize: none;
 }
+
+.dropdown_title {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  font-weight: 400;
+  border-bottom: solid 1px #dfdfdf;
+}
+.dropdown_title:hover {
+  background: -webkit-linear-gradient(#00a8ff, #4361ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 1550px) {
   .margin_for_choose_section {
     margin-left: auto;

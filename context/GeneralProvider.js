@@ -9,6 +9,7 @@ export const AppProvider = ({ children }) => {
   const [featuresMenuNum, setfeaturesMenuNum] = useState(1);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [contact, setContact] = useState(false);
+  const [dropMenu, setDropMenu] = useState(false);
   return (
     <>
       <ContextProvider.Provider
@@ -21,6 +22,8 @@ export const AppProvider = ({ children }) => {
           setMobileMenu,
           contact,
           setContact,
+          dropMenu,
+          setDropMenu,
         }}
       >
         {children}
