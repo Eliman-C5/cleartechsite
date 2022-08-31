@@ -66,7 +66,7 @@ const Menu = () => {
             key={item.id}
             className={`${
               item.id === workwithusMenuNum && `bg-${item.color} text-[#fff]`
-            } flex w-[15.66%]  justify-center items-center max-w-[180px] h-[55px] border rounded-md cursor-pointer font-bold hover:bg-${
+            } flex w-[15.66%]  justify-center items-center max-w-[180px] h-[55px] border rounded-md cursor-pointer  hover:bg-${
               item.color
             } border-${item.color} text-${
               item.color

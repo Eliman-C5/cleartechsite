@@ -35,7 +35,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex md:flex-row flex-col ml-3 md:ml-0">
-          <div className=" mr-[120px]">
+          <div className=" mr-[120px] my-[30px] md:my-0">
             <p className="gradient_title">Links</p>
             {links.map((li) => (
               <p

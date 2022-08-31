@@ -8,7 +8,7 @@ const Deal = ({ deal_data }) => {
       <h2 className="tittles" style={{ marginBottom: '50px' }}>
         How <span className="gradient_title "> we deal with it</span>
       </h2>
-      <div className="flex justify-between ">
+      <div className="flex justify-between flex-col lg:flex-row ">
         {deal_data.map((item) => (
           <SupportCard
             key={item.id}

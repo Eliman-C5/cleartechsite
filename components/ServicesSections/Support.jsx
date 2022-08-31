@@ -1,7 +1,6 @@
 import Section from 'components/Wrappers/NormalAndFadeInSection';
 import { support } from '../../public/data';
 import SupportCard from '../Atoms/SupportCard';
-import Button from 'components/Atoms/Button';
 import React from 'react';
 
 const Support = () => {

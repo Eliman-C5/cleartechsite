@@ -54,7 +54,7 @@ const Menu = () => {
             key={item.id}
             className={`${
               item.id === featuresMenuNum && ' bg-color02_blue text-[#fff]'
-            } flex w-[18.66%] justify-center items-center max-w-[211px] h-[55px] border border-color02_blue rounded-md cursor-pointer text-color02_blue font-bold hover:bg-color02_blue hover:text-white transition-all`}
+            } flex w-[18.66%] justify-center items-center max-w-[211px] h-[55px] border border-color02_blue rounded-md cursor-pointer text-color02_blue  hover:bg-color02_blue hover:text-white transition-all`}
             onMouseOver={() => menuHover(item.id)}
             onMouseLeave={() => setMenuIconNum(0)}
             onClick={() => clickMenu(item.id)}

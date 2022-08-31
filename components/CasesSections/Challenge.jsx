@@ -4,8 +4,8 @@ import Section from 'components/Wrappers/NormalAndFadeInSection';
 const Challenge = ({ list, img }) => {
   return (
     <Section>
-      <article className="flex">
-        <div className="w-[55%]">
+      <article className="flex flex-col lg:flex-row">
+        <div className="lg:w-[55%]">
           <h2
             className="tittles"
             style={{ marginBottom: '20px', textAlign: 'left' }}
@@ -20,7 +20,7 @@ const Challenge = ({ list, img }) => {
             ))}
           </ul>
         </div>
-        <div className="w-[45%] flex items-center">
+        <div className="lg:w-[45%] flex items-center">
           <img src={img} alt="the cahllenge" />
         </div>
       </article>
