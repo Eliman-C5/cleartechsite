@@ -260,8 +260,8 @@ export const team = [
   },
   {
     id: 4,
-    name: ' Leonardo Campos',
-    image: '/img/team/leonardo.png',
+    name: ' Juan Caseraghi',
+    image: '/img/team/juan.png',
     job: 'Tech Lead',
     linkedinlink: '/',
   },
@@ -291,6 +291,20 @@ export const team = [
     name: 'Mauro Beneitez ',
     image: '/img/team/mauro.png',
     job: 'Data & IA Studio Partner  Azure Architect',
+    linkedinlink: '/',
+  },
+  {
+    id: 9,
+    name: 'Juan Passutti',
+    image: '/img/team/passu.png',
+    job: 'Tech Lead',
+    linkedinlink: '/',
+  },
+  {
+    id: 10,
+    name: 'Andres Junyent ',
+    image: '/img/team/andres.png',
+    job: 'Tech Lead',
     linkedinlink: '/',
   },
 ];
@@ -516,26 +530,29 @@ export const deal_bimbo = [
   },
 ];
 
-export const bimbo_resultData = [
-  {
-    id: 1,
-    icon: '/img/icons/aboutus/global.svg',
-    title: 'A meeting point of data',
-    desc: 'Conversion of data from numerous source systems into a common format',
-  },
-  {
-    id: 2,
-    icon: '/img/icons/aboutus/costs.svg',
-    title: 'Global vision',
-    desc: 'Allowing automation for calculating countries profitability.',
-  },
-  {
-    id: 3,
-    icon: '/img/icons/aboutus/workforce.svg',
-    title: 'UX Excelent',
-    desc: 'Easy-to-use and accessible reporting and dashboards.',
-  },
-];
+export const bimbo_resultData = {
+  right_image: '/img/cases/results_BIMBO.png',
+  cards_data: [
+    {
+      id: 1,
+      icon: '/img/icons/aboutus/global.svg',
+      title: 'A meeting point of data',
+      desc: 'Conversion of data from numerous source systems into a common format',
+    },
+    {
+      id: 2,
+      icon: '/img/icons/aboutus/costs.svg',
+      title: 'Global vision',
+      desc: 'Allowing automation for calculating countries profitability.',
+    },
+    {
+      id: 3,
+      icon: '/img/icons/aboutus/workforce.svg',
+      title: 'UX Excelent',
+      desc: 'Easy-to-use and accessible reporting and dashboards.',
+    },
+  ],
+};
 
 export const deal_NFP = [
   {
@@ -558,32 +575,35 @@ export const deal_NFP = [
   },
 ];
 
-export const NFP_resultData = [
-  {
-    id: 1,
-    icon: '/img/icons/aboutus/global.svg',
-    title: 'New Warehouse',
-    desc: 'Clear-Tech started receiving requirements to set up ETL processes in the new Warehouse and publish the results in Reports, at the same time that the equivalent ETLs were decommissioned from the older Warehouse.  ',
-  },
-  {
-    id: 2,
-    icon: '/img/icons/aboutus/costs.svg',
-    title: 'Improvement in Reports',
-    desc: "An increasing number of Reports, now with trusted information, is currently under Clear's responsibility, and our client's stakeholders have noticed the improvement. ",
-  },
-  {
-    id: 3,
-    icon: '/img/icons/aboutus/workforce.svg',
-    title: 'Roadmap',
-    desc: "There is now a roadmap in place to shut down the older Warehouse entirely and transfer all processes to Clear-Tech's direct overview.     ",
-  },
-  {
-    id: 4,
-    icon: '/img/icons/aboutus/peoples.svg',
-    title: 'Customer success',
-    desc: 'We will own management of all ETL, Warehouse and Reporting processes, with the recently signed Managed Services contract with this satisfied customer.    ',
-  },
-];
+export const NFP_resultData = {
+  right_image: '/img/cases/results_NFP.png',
+  cards_data: [
+    {
+      id: 1,
+      icon: '/img/icons/aboutus/global.svg',
+      title: 'New Warehouse',
+      desc: 'Clear-Tech started receiving requirements to set up ETL processes in the new Warehouse and publish the results in Reports, at the same time that the equivalent ETLs were decommissioned from the older Warehouse.  ',
+    },
+    {
+      id: 2,
+      icon: '/img/icons/aboutus/costs.svg',
+      title: 'Improvement in Reports',
+      desc: "An increasing number of Reports, now with trusted information, is currently under Clear's responsibility, and our client's stakeholders have noticed the improvement. ",
+    },
+    {
+      id: 3,
+      icon: '/img/icons/aboutus/workforce.svg',
+      title: 'Roadmap',
+      desc: "There is now a roadmap in place to shut down the older Warehouse entirely and transfer all processes to Clear-Tech's direct overview.     ",
+    },
+    {
+      id: 4,
+      icon: '/img/icons/aboutus/peoples.svg',
+      title: 'Customer success',
+      desc: 'We will own management of all ETL, Warehouse and Reporting processes, with the recently signed Managed Services contract with this satisfied customer.    ',
+    },
+  ],
+};
 export const deal_TTEC = [
   {
     id: 1,
@@ -605,29 +625,32 @@ export const deal_TTEC = [
   },
 ];
 
-export const TTEC_resultData = [
-  {
-    id: 1,
-    icon: '/img/icons/aboutus/global.svg',
-    title: 'Real time view',
-    desc: 'Ability to get a real-time view of agent statuses without logging into Aspect or other WFM tools.     ',
-  },
-  {
-    id: 2,
-    icon: '/img/icons/aboutus/costs.svg',
-    title: 'Technology-driven ',
-    desc: 'agent tracking and tagging on appropriate statuses in WFM: benefits TLs, WFM specialists and agents alike.     ',
-  },
-  {
-    id: 3,
-    icon: '/img/icons/aboutus/workforce.svg',
-    title: 'Paradigm shift ',
-    desc: 'from action-based operations to an information-driven platform.    ',
-  },
-  {
-    id: 4,
-    icon: '/img/icons/aboutus/peoples.svg',
-    title: 'Optimization cost',
-    desc: 'Optimal long-term operational cost by reusing human hours spent on system interactions to other productive areas of operation.     ',
-  },
-];
+export const TTEC_resultData = {
+  right_image: '/img/cases/results_TTEC.png',
+  cards_data: [
+    {
+      id: 1,
+      icon: '/img/icons/aboutus/global.svg',
+      title: 'Real time view',
+      desc: 'Ability to get a real-time view of agent statuses without logging into Aspect or other WFM tools.     ',
+    },
+    {
+      id: 2,
+      icon: '/img/icons/aboutus/costs.svg',
+      title: 'Technology-driven ',
+      desc: 'agent tracking and tagging on appropriate statuses in WFM: benefits TLs, WFM specialists and agents alike.     ',
+    },
+    {
+      id: 3,
+      icon: '/img/icons/aboutus/workforce.svg',
+      title: 'Paradigm shift ',
+      desc: 'from action-based operations to an information-driven platform.    ',
+    },
+    {
+      id: 4,
+      icon: '/img/icons/aboutus/peoples.svg',
+      title: 'Optimization cost',
+      desc: 'Optimal long-term operational cost by reusing human hours spent on system interactions to other productive areas of operation.     ',
+    },
+  ],
+};

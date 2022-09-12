@@ -20,7 +20,10 @@ const Bimbo = () => {
         img={'/img/cases/challenge_TTEC.png'}
       />
       <Deal deal_data={deal_TTEC} />
-      <Result results_data={TTEC_resultData} />
+      <Result
+        results_data={TTEC_resultData.cards_data}
+        rightImage={TTEC_resultData.right_image}
+      />
     </div>
   );
 };

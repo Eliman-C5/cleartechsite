@@ -20,7 +20,10 @@ const Bimbo = () => {
         img={'/img/cases/challenge_NFP.png'}
       />
       <Deal deal_data={deal_NFP} />
-      <Result results_data={NFP_resultData} />
+      <Result
+        results_data={NFP_resultData.cards_data}
+        rightImage={NFP_resultData.right_image}
+      />
     </div>
   );
 };

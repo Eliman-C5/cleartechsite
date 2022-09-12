@@ -20,7 +20,10 @@ const Bimbo = () => {
         img={'/img/cases/challenge_bimbo.png'}
       />
       <Deal deal_data={deal_bimbo} />
-      <Result results_data={bimbo_resultData} />
+      <Result
+        results_data={bimbo_resultData.cards_data}
+        rightImage={bimbo_resultData.right_image}
+      />
     </div>
   );
 };
