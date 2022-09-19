@@ -190,21 +190,21 @@ export const cases = [
     id: 1,
     img: '/img/cases/bimbo.png',
     title: 'Bimbo',
-    desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
+    desc: 'See how we helped one of the most important retail companies globally achieve Cloud technology Adoption and Self Service BI.',
     link: '/cases/Bimbo',
   },
   {
     id: 2,
     img: '/img/cases/commonareas.png',
-    title: 'Common areas',
-    desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
+    title: 'NFP',
+    desc: 'Explore this well regarded NGO’s digital transformation journey including their Data architecture, Analytics and a Data Quality tool.',
     link: '/cases/NFP',
   },
   {
     id: 3,
     img: '/img/cases/ttec.png',
     title: 'TTEC',
-    desc: 'The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!',
+    desc: 'Discover how we designed an integral workforce management solution for one of the biggest CX leaders in the world.',
     link: '/cases/TTEC',
   },
 ];
@@ -654,3 +654,24 @@ export const TTEC_resultData = {
     },
   ],
 };
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Piero Termignone',
+    job: 'Executive Director, Global Workforce Management in TTEC',
+    desc: 'They are great at what they do, gathering requirements, solutioning, design, project management, programing, delivery, etc. Everyone I’ve worked with has an innovative approach, they put themselves in the shoes of the client/user, but the thing that I appreciate the most is their “can-do” attitude. ',
+  },
+  {
+    id: 2,
+    name: 'Maximiliano Diaz',
+    job: 'Former TTEC Executive Director, Enterprise Apps and Analytics',
+    desc: 'Clear-Tech has been my technology partner of choice for years, and together we navigated a wide range of problems that go from real time automation of business processes using cutting edge cloud tools. I have found the expected partnership, and always the desire of making this journey a joint success. ',
+  },
+  {
+    id: 3,
+    name: 'Eric Buhring',
+    job: 'Former TTEC VP, Technology Solutions',
+    desc: 'I have worked with Clear-Tech several times over the past few years.  In each engagement the value they brought was fantastic.  Technical skill coupled with great business acumen produced excellent outcomes for both my companies and the clients we served.  I would highly recommend Clear-Tech as a reliable, outcome-focused partner.',
+  },
+];

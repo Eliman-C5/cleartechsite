@@ -4,7 +4,7 @@ import ThreeCases from 'components/HomeSections/Cases/ThreeCases';
 import Button from 'components/Atoms/Button';
 const CasesSection = () => {
   return (
-    <div className="h-auto relative">
+    <div className='h-auto relative bg-[url("../public/img/cases_bg.png")]   bg-no-repeat bg-cover bg-bottom '>
       {/*       <div
         className="w-full h-[400px] bg-center bg-no-repeat bg-cover absolute z-0"
         style={{

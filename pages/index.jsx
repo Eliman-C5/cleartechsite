@@ -6,6 +6,7 @@ import Cases from 'components/HomeSections/CasesSection';
 import WorkWithUs from 'components/HomeSections/WorkWithUs';
 import Map from 'components/HomeSections/MapSection';
 import Contact from 'components/HomeSections/Contact';
+import Testimonials from 'components/Testimonials';
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <Cases />
       <AboutUsSection />
       <Map />
+      <Testimonials />
       <Contact />
     </>
   );

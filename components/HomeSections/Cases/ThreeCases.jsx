@@ -13,48 +13,50 @@ import { Pagination, Navigation } from 'swiper';
 
 const ThreeCases = () => {
   return (
-    <div id="cases">
-      <div className="hidden md:flex justify-between">
-        {cases.map((c) => (
-          <Card
-            key={c.id}
-            imgsrc={c.img}
-            title={c.title}
-            desc={c.desc}
-            link={c.link}
-          />
-        ))}
-      </div>
-      {/*slider for mobile*/}
-      <div className=" relative md:hidden">
-        <Swiper
-          pagination={true}
-          modules={[Pagination, Navigation]}
-          spaceBetween={20}
-          className="mySwiper"
-          navigation={{
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          }}
-        >
+    <div>
+      <div id="cases">
+        <div className="hidden md:flex justify-between">
           {cases.map((c) => (
-            <SwiperSlide key={c.id}>
-              <Card
-                key={c.id}
-                imgsrc={c.img}
-                title={c.title}
-                desc={c.desc}
-                link={c.link}
-              />
-            </SwiperSlide>
+            <Card
+              key={c.id}
+              imgsrc={c.img}
+              title={c.title}
+              desc={c.desc}
+              link={c.link}
+            />
           ))}
-        </Swiper>
-        <button className="swiper-button-prev absolute bottom-[-80px]">
-          <img src="/img/Left.svg" alt="left" />
-        </button>
-        <button className="swiper-button-next absolute bottom-[-80px] right-0">
-          <img src="/img/Right.svg" alt="left" />
-        </button>
+        </div>
+        {/*slider for mobile*/}
+        <div className=" relative md:hidden">
+          <Swiper
+            pagination={true}
+            modules={[Pagination, Navigation]}
+            spaceBetween={20}
+            className="mySwiper"
+            navigation={{
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }}
+          >
+            {cases.map((c) => (
+              <SwiperSlide key={c.id}>
+                <Card
+                  key={c.id}
+                  imgsrc={c.img}
+                  title={c.title}
+                  desc={c.desc}
+                  link={c.link}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <button className="swiper-button-prev absolute bottom-[-80px]">
+            <img src="/img/Left.svg" alt="left" />
+          </button>
+          <button className="swiper-button-next absolute bottom-[-80px] right-0">
+            <img src="/img/Right.svg" alt="left" />
+          </button>
+        </div>
       </div>
     </div>
   );
