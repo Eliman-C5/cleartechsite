@@ -3,9 +3,19 @@ import FadeInSection from 'components/Wrappers/FadeInSection';
 import Button from 'components/Atoms/Button';
 const HeroSection = () => {
   return (
-    <div className="w-full md:h-[90vh] realtive">
+    <div className="w-full md:h-[90vh] ">
       {/*div con imagen de fondo*/}
-      <div className='w-full absolute top-0  h-[75vh] md:h-[100vh] bg-[url("../public/img/hero_bg_2.png")] bg-center bg-no-repeat bg-cover z-0'></div>
+      <div>
+        <div className='w-full absolute top-0  h-[75vh] md:h-[80vh] bg-[url("../public/img/hero_bg_2.png")] bg-center bg-no-repeat bg-cover z-0'>
+          <div
+            className="w-full h-[100px] absolute bottom-0"
+            style={{
+              background:
+                'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%)',
+            }}
+          ></div>
+        </div>
+      </div>
       <div className="relative">
         <FadeInSection>
           <div className="md:w-full w-[86%] mx-auto mt-[180px]">
