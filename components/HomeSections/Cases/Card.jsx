@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-const Card = ({ imgsrc, title, desc, link }) => {
+const Card = ({ imgsrc, title, desc, link, tag }) => {
   return (
     <div
       className="md:w-[32%]  max-w-[365px] rounded-md  h-[402px] bg-white"
@@ -12,7 +12,7 @@ const Card = ({ imgsrc, title, desc, link }) => {
       <div className="relative">
         <img src={imgsrc} />
         <p className="text-white text-xs  bg-[#00A8FF] absolute  top-5 right-0 px-4 py-2">
-          SEO WORD
+          {tag}
         </p>
       </div>
       <div className="w-[80%] mx-auto h-auto pt-[25px]">

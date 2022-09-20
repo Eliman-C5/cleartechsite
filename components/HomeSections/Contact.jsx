@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Section from 'components/Wrappers/NormalAndFadeInSection';
-
+import { useGeneralProvider } from '../../context/GeneralProvider';
+import ThanksModal from '../Modals/ThanksModal';
 const Contact = () => {
   const formbutton = useRef();
   const checkbox = useRef();
@@ -8,7 +9,8 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [mail, setMail] = useState('');
   const [privacy, setPrivacy] = useState('Yes');
-
+  const [suscribeModal, setSuscribeModal] = useState(false);
+  const { thanks, setThanks } = useGeneralProvider();
   const handleSubmit = (e) => {
     e.preventDefault();
     //iniciar peticion de xhr
@@ -47,7 +49,8 @@ const Contact = () => {
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
         console.log(xhr.responseText);
-        //setFormConfirm(true);
+        setThanks(true);
+        setSuscribeModal(true);
       } else if (xhr.readyState === 4 && xhr.status === 403) {
         console.log(xhr.responseText);
       }
@@ -136,6 +139,14 @@ const Contact = () => {
           </div>
         </div>
       </Section>
+      {suscribeModal && (
+        <ThanksModal
+          img={'/img/suscribe_modal.png'}
+          title="Thank you for suscribing"
+          desc="You will receive our news in your mail"
+          buttonText="Go to Blog"
+        />
+      )}
     </div>
   );
 };

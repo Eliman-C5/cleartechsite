@@ -23,6 +23,7 @@ const ThreeCases = () => {
               title={c.title}
               desc={c.desc}
               link={c.link}
+              tag={c.tag}
             />
           ))}
         </div>
