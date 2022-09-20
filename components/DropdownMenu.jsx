@@ -19,7 +19,7 @@ const DropdownMenu = ({ data }) => {
           {data.map((d) => (
             <Link href={d.src} key={d.id}>
               <p
-                className="cursor-pointer dropdown_title"
+                className="cursor-pointer dropdown_title hover:font-bold"
                 onClick={() => setDropMenu(false)}
               >
                 {d.title}

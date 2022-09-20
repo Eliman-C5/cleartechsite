@@ -192,7 +192,7 @@ export const cases = [
     title: 'Bimbo',
     desc: 'See how we helped one of the most important retail companies globally achieve Cloud technology Adoption and Self Service BI.',
     link: '/cases/Bimbo',
-    tag: 'Bimbo Food & beverages ',
+    tag: 'Food & beverages ',
   },
   {
     id: 2,
@@ -200,7 +200,7 @@ export const cases = [
     title: 'NFP',
     desc: 'Explore this well regarded NGO’s digital transformation journey including their Data architecture, Analytics and a Data Quality tool.',
     link: '/cases/NFP',
-    tag: 'NFP Non-profit Organizations',
+    tag: 'Non-profit Organizations',
   },
   {
     id: 3,
@@ -208,7 +208,7 @@ export const cases = [
     title: 'TTEC',
     desc: 'Discover how we designed an integral workforce management solution for one of the biggest CX leaders in the world.',
     link: '/cases/TTEC',
-    tag: 'TTEC CX outsourcing',
+    tag: 'CX outsourcing',
   },
 ];
 

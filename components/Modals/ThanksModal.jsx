@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useGeneralProvider } from 'context/GeneralProvider';
+import Link from 'next/link';
 const ThanksModal = ({ img, title, buttonLink, desc, buttonText }) => {
   const { thanks, setThanks } = useGeneralProvider();
   return (
@@ -19,9 +20,14 @@ const ThanksModal = ({ img, title, buttonLink, desc, buttonText }) => {
               <img src="/img/heart.svg" alt="heart" />
             </div>
             <p className=" text-color03_black roboto my-5">{desc}</p>
-            <button className=" bg-color02_blue text-white text-sm py-2 px-6 rounded-md">
-              {buttonText}
-            </button>
+            <Link href={buttonLink}>
+              <button
+                className=" bg-color02_blue text-white text-sm py-2 px-6 rounded-md"
+                onClick={() => setThanks(false)}
+              >
+                {buttonText}
+              </button>
+            </Link>
             <img
               src="/img/tacha.svg"
               alt="tachita"

@@ -145,6 +145,7 @@ const Contact = () => {
           title="Thank you for suscribing"
           desc="You will receive our news in your mail"
           buttonText="Go to Blog"
+          buttonLink="https://clear-tech.com/blog/"
         />
       )}
     </div>

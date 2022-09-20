@@ -1,26 +1,26 @@
 import React from 'react';
 import Section from '../components/Wrappers/NormalAndFadeInSection';
-
+import Link from 'next/link';
 const links = [
   {
     id: '1',
     title: 'Solutions',
-    src: '/',
+    src: '/Services',
   },
   {
     id: '2',
     title: 'Use Cases',
-    src: '/',
+    src: '/#cases',
   },
   {
     id: '3',
     title: 'About us',
-    src: '/',
+    src: '/AboutUs',
   },
   {
     id: '4',
     title: 'Blog',
-    src: '/',
+    src: 'https://clear-tech.com/blog/',
   },
 ];
 
@@ -38,12 +38,14 @@ const Footer = () => {
           <div className=" mr-[120px] my-[30px] md:my-0">
             <p className="gradient_title">Links</p>
             {links.map((li) => (
-              <p
-                className=" text-color03_black roboto  cursor-pointer"
-                key={li.id}
-              >
-                {li.title}
-              </p>
+              <Link href={li.src}>
+                <p
+                  className=" text-color03_black roboto  cursor-pointer"
+                  key={li.id}
+                >
+                  {li.title}
+                </p>
+              </Link>
             ))}
           </div>
           <div>

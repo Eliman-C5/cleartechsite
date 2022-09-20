@@ -16,7 +16,7 @@ const links = [
   {
     id: '2',
     title: 'Use Cases',
-    src: '/',
+    src: '/#cases',
     dropdown: true,
   },
   {
@@ -28,7 +28,7 @@ const links = [
   {
     id: '4',
     title: 'Blog',
-    src: '/',
+    src: 'https://clear-tech.com/blog/',
     dropdown: false,
   },
 ];

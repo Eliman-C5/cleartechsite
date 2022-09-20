@@ -24,7 +24,7 @@ const links = [
   {
     id: 4,
     title: 'Blog',
-    src: '/',
+    src: 'https://clear-tech.com/blog/',
   },
 ];
 
@@ -66,12 +66,14 @@ const Navbar = () => {
         <div className="lg:flex space-x-8 items-center hidden ">
           {links.map((link) => (
             <Link href={link.src} key={link.id}>
-              <p
-                className="text-color03_black  text-sm cursor-pointer"
-                onMouseEnter={() => hoverNavbar(link.id)}
-              >
-                {link.title}
-              </p>
+              <a href={link.src} rel="noreferrer">
+                <p
+                  className="text-color03_black  text-sm cursor-pointer"
+                  onMouseEnter={() => hoverNavbar(link.id)}
+                >
+                  {link.title}
+                </p>
+              </a>
             </Link>
           ))}
           <DropdownMenu data={casesMenu} />
