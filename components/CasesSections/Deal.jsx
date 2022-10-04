@@ -6,7 +6,7 @@ const Deal = ({ deal_data }) => {
   return (
     <Section>
       <h2 className="tittles" style={{ marginBottom: '50px' }}>
-        How <span className="gradient_title "> we deal with it</span>
+        How <span className="gradient_title "> we dealt with it</span>
       </h2>
       <div className="flex justify-between flex-col lg:flex-row ">
         {deal_data.map((item) => (

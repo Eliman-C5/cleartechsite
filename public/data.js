@@ -228,14 +228,14 @@ export const choosecards = [
   {
     id: 3,
     icon: '/img/icons/aboutus/workforce.svg',
-    title: 'A Highly Skilled Workforce and College Graduates',
-    desc: 'Two of our best sources from where we have built our team are  the Philippines and Argentina. ',
+    title: 'A highly skilled workforce',
+    desc: 'Our HR team Works tirelessly to find the best talent in the market and partners with our leaders to make training and coaching a daily activity.',
   },
   {
     id: 4,
     icon: '/img/icons/aboutus/peoples.svg',
     title: 'Completely Bilingual',
-    desc: 'Argentina and the Philippines have extremely high bilingual rates in the world with English is the most studied language. ',
+    desc: 'We understand the importance of having a team that fully integrates with yours and delivers the best posible results with compelte understanding',
   },
 ];
 
@@ -490,7 +490,7 @@ export const support = [
     id: 1,
     icon: '/img/icons/services/support/carbon_user-data.svg',
     title: 'Strategic Planning & Consulting',
-    desc: 'Define your company’s direction and develop plans to realize your business objectives. You will maintain your competitive advantage and allocate resources appropriately.    ',
+    desc: 'We’ll help you define your company’s direction and create plans to meet your business objetives maintaining your competitive advantage',
   },
   {
     id: 2,
@@ -502,12 +502,12 @@ export const support = [
     id: 3,
     icon: '/img/icons/services/support/carbon_settings-services.png',
     title: 'Outsourced Managed Services',
-    desc: 'Reduce costs and gain peace of mind with world-class resources working with and for you. Let us do the heavy work so you can focus on your company’s core areas to develop your brand.    ',
+    desc: 'Reduce costs and gain peace of mind with world-class resources working with and for you. Let us do the heavy work so you can concentrate on growing your business and develop your brand',
   },
   {
     id: 4,
     icon: '/img/icons/services/support/tools.svg',
-    title: 'Tools & Training Processes',
+    title: 'Training & Learning',
     desc: 'Provide your company with breakthrough insights that empower you to act in a competitive environment. Pick the tool, pick the process. On-site or web; one-on-one or groups.',
   },
 ];
@@ -517,19 +517,19 @@ export const deal_bimbo = [
     id: 1,
     icon: '/img/icons/services/support/carbon_settings-services.png',
     title: 'Data Warehouse',
-    desc: 'Construction and modeling of the corporate Data Warehouse 100% in Azure.',
+    desc: 'Constrution and modeling of the Corporate Data Warehouse 100% in the Cloud, using Microsoft Azure',
   },
   {
     id: 2,
     icon: '/img/icons/services/support/calendar.svg',
-    title: 'New comercial and customize tool    ',
-    desc: 'Development of loads with Azure Data Factory and Data Warehouse modeled on Azure Synapse.',
+    title: 'New Commercial and Custom Tool',
+    desc: 'Data loads developed using Azure Data Factory, feeding its Data Warehouse modeled on Azure Synapse.',
   },
   {
     id: 3,
     icon: '/img/icons/services/support/carbon_user-data.svg',
-    title: 'Reports with great precision',
-    desc: 'Dimensional model designed for the use of MPP (Multi Parallel Processing) architecture.     ',
+    title: 'Reports with Single Source of Truth',
+    desc: 'Data Model designed for the use of MPP (Multi Parallel Processing) architecture',
   },
 ];
 
@@ -539,20 +539,20 @@ export const bimbo_resultData = {
     {
       id: 1,
       icon: '/img/icons/aboutus/global.svg',
-      title: 'A meeting point of data',
-      desc: 'Conversion of data from numerous source systems into a common format',
+      title: 'Unified Data Repository',
+      desc: 'Concentrated data from multiple sources from different countries',
     },
     {
       id: 2,
       icon: '/img/icons/aboutus/costs.svg',
       title: 'Global vision',
-      desc: 'Allowing automation for calculating countries profitability.',
+      desc: 'Automated the countries profitability calculations and data layer that supports multiple teams across the world',
     },
     {
       id: 3,
       icon: '/img/icons/aboutus/workforce.svg',
-      title: 'UX Excelent',
-      desc: 'Easy-to-use and accessible reporting and dashboards.',
+      title: 'Excellent UX & UI',
+      desc: 'Simple and beautiful reports and dashboards that provide great insights at first sight',
     },
   ],
 };
@@ -611,7 +611,7 @@ export const deal_TTEC = [
   {
     id: 1,
     icon: '/img/icons/services/support/carbon_settings-services.png',
-    title: 'A customize and innovative product',
+    title: 'A custom and innovative product',
     desc: 'A product was built with GCP and a front end based on React and Node.JS that connects the telephone switches and consumes data in real time    ',
   },
   {
@@ -641,13 +641,13 @@ export const TTEC_resultData = {
       id: 2,
       icon: '/img/icons/aboutus/costs.svg',
       title: 'Technology-driven ',
-      desc: 'agent tracking and tagging on appropriate statuses in WFM: benefits TLs, WFM specialists and agents alike.     ',
+      desc: 'Agent tracking and tagging on appropriate statuses in WFM: benefits TLs, WFM specialists and agents alike.     ',
     },
     {
       id: 3,
       icon: '/img/icons/aboutus/workforce.svg',
       title: 'Paradigm shift ',
-      desc: 'from action-based operations to an information-driven platform.    ',
+      desc: 'From action-based operations to an information-driven platform.    ',
     },
     {
       id: 4,

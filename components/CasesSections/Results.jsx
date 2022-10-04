@@ -11,10 +11,6 @@ const Result = ({ results_data, rightImage }) => {
         <h2 className="tittles" style={{ marginBottom: '20px' }}>
           The <span className="gradient_title ">results</span>
         </h2>
-        <p className="roboto md:text-center text-color03_black mb-[15px]">
-          We are a business intelligence experts and a team of visionary
-          analysts, developers and business leaders.
-        </p>
       </div>
       <article className="max-w-[1146px] lg:h-[720px] flex  items-center mx-auto justify-around   relative">
         <div className=" flex md:flex-wrap flex-col md:flex-row w-[86%] mx-auto lg:mx-0 lg:w-[545px] h-auto lg:h-[80%] items-end">

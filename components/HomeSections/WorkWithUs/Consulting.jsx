@@ -8,15 +8,15 @@ const Consulting = () => {
         <div className="md:flex-1 text-color02_blue">
           <div className="w-[95%]">
             <p className="mb-[15px]">
-              All our experience at your service: What you need, when you need
+              All our experience at your service: what you need, when you need
               it
             </p>
             <p>
-              We do consulting services to organizations{' '}
+              We help organizations{' '}
               <span className="font-bold">
-                to improve their performance or in any way to assist
+                improve their performance meet
               </span>{' '}
-              in achieving any sort of organizational objectives
+              organizational objectives
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Provide = () => {
   return (
     <Section>
       <h2 className="tittles" style={{ marginBottom: '20px' }}>
-        This are the services that we provide
+        These are the services that we provide
       </h2>
       <p className="roboto md:w-[90%] mx-auto  mdtext-center text-color03_black mb-[15px]">
         We grow your organizational analytics capabilities. With the right help,

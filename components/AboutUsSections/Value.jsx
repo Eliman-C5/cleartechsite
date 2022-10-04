@@ -17,10 +17,11 @@ const Goal = ({ title, desc }) => {
   );
 };
 
+//Se esconde la seccion "Our Value Proposal" hasta que se defina
 const Value = () => {
   return (
     <Section>
-      <article className="flex lg:flex-row flex-col">
+      <article className="flex lg:flex-row flex-col hidden">
         <div className=" lg:hidden xl:block xl:basis-1/2">
           <img
             src="/img/services/value.png"
@@ -53,7 +54,7 @@ const Value = () => {
           />
         </div>
       </article>
-      <div className="flex justify-center mt-[60px]">
+      <div className="flex justify-center mt-[60px] hidden">
         <Button title="Talk with us" contactButton />
       </div>
     </Section>

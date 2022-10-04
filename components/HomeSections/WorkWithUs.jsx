@@ -6,12 +6,9 @@ import Button from 'components/Atoms/Button';
 const WorkWithUs = () => {
   return (
     <Section>
-      <h2 className="tittles" style={{ marginBottom: '20px' }}>
-        How we can <span className="gradient_title ">work together?</span>
+      <h2 className="tittles" style={{ marginBottom: '0px' }}>
+        How can we <span className="gradient_title">work together?</span>
       </h2>
-      <p className="roboto md:text-center text-color03_black   mx-auto mb-[30px]">
-        We are aroud the world
-      </p>
       <Menu />
       <Manager />
       <div className="flex justify-center mt-[25px]">

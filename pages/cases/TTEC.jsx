@@ -9,7 +9,8 @@ const Bimbo = () => {
     <div>
       <PageHeader
         title="TTEC"
-        desc="The entire industry is using AI to make strategic decisions. Dont be left behind! Let our data scientists help you!"
+        desc=""
+        show={false}
       />
       <Challenge
         list={[

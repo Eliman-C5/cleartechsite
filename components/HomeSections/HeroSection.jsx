@@ -38,12 +38,6 @@ const HeroSection = () => {
                   link={'/Services'}
                 />
               </div>
-              <div className="flex justify-center items-center space-x-2">
-                <img src="/img/play_button.svg" alt="play button" />
-                <p className=" font-medium text-color02_blue ">
-                  Learn more (2 min)
-                </p>
-              </div>
             </div>
             {/*image container*/}
             <div className="flex justify-center items-center">

@@ -5,32 +5,32 @@ const LittleCards = [
   {
     id: 1,
     icon: '/img/icons/workwithus/clock.svg',
-    title: 'Time Savings',
+    title: 'Saves Time',
   },
   {
     id: 2,
     icon: '/img/icons/workwithus/user.svg',
-    title: 'Best technical staff',
+    title: 'Best-in-class Staff',
   },
   {
     id: 3,
     icon: '/img/icons/workwithus/briefcase.svg',
-    title: 'Benefits from our experience',
+    title: 'Benefits from Experience',
   },
   {
     id: 4,
     icon: '/img/icons/workwithus/credit-card.svg',
-    title: 'Cost savings',
+    title: 'Reduces Costs',
   },
   {
     id: 5,
     icon: '/img/icons/workwithus/fi_settings.svg',
-    title: 'Excelent support',
+    title: 'Continuous Support',
   },
   {
     id: 6,
     icon: '/img/icons/workwithus/flag.svg',
-    title: 'Focus on core bussiness activity',
+    title: 'Concentrate on running your business',
   },
 ];
 
@@ -47,9 +47,8 @@ const Outsourcing = () => {
   return (
     <FeatureSection>
       <p className=" text-color02_blue">
-        From design to reality: We build customized end-to-end solutions that
-        satisfy your needs. We fix costs into variable costs and help to release
-        the capital for investment in your business.{' '}
+        From design to reality: we build custom end-to-end solutions that
+        satisfy your needs.{' '}
         <span className="font-bold">The benefits of outsorcing are:</span>
       </p>
       <div className="flex flex-wrap justify-between mt-[40px]">

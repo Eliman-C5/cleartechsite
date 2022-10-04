@@ -84,7 +84,7 @@ const Contact = () => {
         <div className="h-auto md:h-[582px] w-full flex md:flex-row flex-col items-center">
           <form className="flex-1 py-10 md:py-0" onSubmit={handleSubmit}>
             <h2 className="tittles" style={{ textAlign: 'left' }}>
-              Suscribe to <span className="gradient_title">our newsletter</span>{' '}
+              Subscribe to <span className="gradient_title">our newsletter</span>{' '}
             </h2>
             <div className="md:w-[80%] bg-[#DFDFDF] flex items-center rounded-sm mb-[15px] ">
               <img src="/img/bxs_user-circle.svg" className=" mx-3" />

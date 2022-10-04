@@ -48,7 +48,7 @@ const Menu = () => {
   };
   return (
     <div className="w-full overflow-x-scroll xl:overflow-x-hidden">
-      <div className="flex items-center justify-between w-[1146px] mb-[50px]">
+      <div className="flex items-center justify-between w-[1146px] my-[50px]">
         {MenuItems.map((item) => (
           <div
             key={item.id}

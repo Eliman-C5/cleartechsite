@@ -11,7 +11,7 @@ const Services = () => {
               <span className="font-bold">
                 Concentrate on running your business:
               </span>{' '}
-              We help you run your IT Ops taking care of it as if it were our
+              We help you run your IT Ops taking care of it as if it was our
               own. From daily support activities to project management, product
               development and more...
             </p>

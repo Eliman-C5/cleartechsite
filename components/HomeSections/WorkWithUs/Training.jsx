@@ -13,7 +13,7 @@ const Training = () => {
               one-on-one or groups
             </p>
             <p className="font-bold">
-              We develop process refering to the acquisition of specific skills,
+              We develop processes referring to the development of specific skills,
               abilities, and knowledge to improve employee performance.
             </p>
           </div>

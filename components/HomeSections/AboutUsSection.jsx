@@ -11,8 +11,7 @@ const AboutUsSection = () => {
         your business{' '}
       </h2>
       <p className="md:text-center roboto text-color03_black   mx-auto mb-[30px]">
-        We bring the best solutions for every challenge, we a field of experts
-        giving you a multidiscplinary, proactive and agile team.
+      We face all challenges with multidisciplinary, proactive and agile experts
       </p>
       <Menu />
       <Manager />

@@ -12,7 +12,7 @@ const TestimonialCard = ({ name, job, desc }) => {
     >
       <div className="w-[90%] h-[90%]">
         <img src="/img/stars.svg" alt="rating" />
-        <p className="roboto text-sm font-normal text-[#999999] mb-2">{desc}</p>
+        <p className="roboto text-sm font-normal text-[#999999] my-2">{desc}</p>
         <div>
           <p className=" text-color02_blue font-bold ">{name}</p>
           <p className="roboto text-sm font-normal text-[#999999]">{job}</p>
