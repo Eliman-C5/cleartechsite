@@ -54,7 +54,7 @@ const MobileMenu = () => {
   const { mobileMenu, setMobileMenu, dropMenu, setDropMenu } =
     useGeneralProvider();
   //lockear el scroll cuando este en pantalla el componente
-  useLockBodyScroll();
+  //useLockBodyScroll();
   return (
     <AnimatePresence>
       {mobileMenu && (
@@ -102,7 +102,7 @@ const MobileMenu = () => {
               ))}
             </motion.div>
             <div className="w-[81%] mx-auto mt-10">
-              <Button title={'Get in Touch'} contactButton />
+              <Button title={'Get in Touch'} link={'/contact'} />
             </div>
           </motion.div>
         </motion.div>

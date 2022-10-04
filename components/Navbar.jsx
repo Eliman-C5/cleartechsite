@@ -79,7 +79,7 @@ const Navbar = () => {
           <DropdownMenu data={casesMenu} />
         </div>
         <div className="hidden lg:block">
-          <Button title={'Get in touch'} contactButton />
+          <Button title={'Get in touch'} link={'/contact'} />
         </div>
         {/*         <button className="md:block hidden text-white  font-bold text-sm bg-color02_blue  px-[30px] py-[10px] rounded-md  ">
           Get in touch

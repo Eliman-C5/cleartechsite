@@ -14,7 +14,7 @@ const Button = ({ title, link, contactButton }) => {
             backgroundColor: '#00A8FF',
           }}
           className=" bg-color02_blue  text-white text-sm px-[30px] py-[10px] rounded-md "
-          onClick={() => setContact(!contact)}
+          //onClick={() => setContact(!contact)}
         >
           {title}
         </motion.button>

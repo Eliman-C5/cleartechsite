@@ -1,12 +1,11 @@
 import PageHeader from 'components/Atoms/PageHeader';
-import ContactUs from 'components/Modals/ContactUs';
+import { Form } from 'components/ContactSection/Form';
 
 const index = () => {
   return (
     <>
       <PageHeader title='Contact' />
-      <ContactUs />
-
+      <Form />
     </>
   )
 }
