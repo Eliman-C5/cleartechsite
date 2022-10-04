@@ -1,7 +1,8 @@
 import React from 'react';
 import Section from 'components/Wrappers/NormalAndFadeInSection';
 import { testimonials } from '../public/data';
-const TestimonialCard = ({ name, job, desc }) => {
+
+const TestimonialCard = ({ img, job, desc }) => {
   return (
     <div
       className=" py-6 lg:py-0 mb-5 lg:w-[365px] lg:h-[270px] flex flex-col items-center justify-center"
@@ -13,8 +14,9 @@ const TestimonialCard = ({ name, job, desc }) => {
       <div className="w-[90%] h-[90%]">
         <img src="/img/stars.svg" alt="rating" />
         <p className="roboto text-sm font-normal text-[#999999] my-2">{desc}</p>
-        <div>
-          <p className=" text-color02_blue font-bold ">{name}</p>
+        <div className="flex gap-4 items-center">
+          {/* <p className=" text-color02_blue font-bold ">{name}</p> */}
+          <img src={img} alt={img} className="w-[60px] h-[60px] rounded-full" />
           <p className="roboto text-sm font-normal text-[#999999]">{job}</p>
         </div>
       </div>
@@ -32,7 +34,8 @@ const Testimonials = () => {
         {testimonials.map((items) => (
           <TestimonialCard
             key={items.id}
-            name={items.name}
+            // name={items.name}
+            img={items.img}
             job={items.job}
             desc={items.desc}
           />

@@ -662,18 +662,21 @@ export const testimonials = [
   {
     id: 1,
     name: 'Piero Termignone',
+    img: '/img/clients/piero.png',
     job: 'Executive Director, Global Workforce Management in TTEC',
     desc: 'They are great at what they do, gathering requirements, solutioning, design, project management, programing, delivery, etc. Everyone I’ve worked with has an innovative approach, they put themselves in the shoes of the client/user, but the thing that I appreciate the most is their “can-do” attitude. ',
   },
   {
     id: 2,
     name: 'Maximiliano Diaz',
+    img: '/img/clients/maximiliano.png',
     job: 'Former TTEC Executive Director, Enterprise Apps and Analytics',
     desc: 'Clear-Tech has been my technology partner of choice for years, and together we navigated a wide range of problems that go from real time automation of business processes using cutting edge cloud tools. I have found the expected partnership, and always the desire of making this journey a joint success. ',
   },
   {
     id: 3,
     name: 'Eric Buhring',
+    img: '/img/clients/eric.png',
     job: 'Former TTEC VP, Technology Solutions',
     desc: 'I have worked with Clear-Tech several times over the past few years.  In each engagement the value they brought was fantastic.  Technical skill coupled with great business acumen produced excellent outcomes for both my companies and the clients we served.  I would highly recommend Clear-Tech as a reliable, outcome-focused partner.',
   },

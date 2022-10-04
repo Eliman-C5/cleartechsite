@@ -14,7 +14,7 @@ const CasesSection = () => {
       <div className="">
         <Section>
           {' '}
-          <h2 className="tittles" style={{ marginBottom: '20px' }}>
+          <h2 className="tittles gradient_shadow" style={{ marginBottom: '20px' }}>
             See how we{' '}
             <span className="gradient_title ">empower with data</span>
           </h2>
