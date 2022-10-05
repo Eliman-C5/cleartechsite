@@ -4,7 +4,7 @@ import { Form } from 'components/ContactSection/Form';
 const index = () => {
   return (
     <>
-      <PageHeader title='Contact' />
+      <PageHeader title='Contact Us' />
       <Form />
     </>
   )

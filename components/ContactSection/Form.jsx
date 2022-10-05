@@ -88,18 +88,8 @@ export const Form = () => {
 
   return (
     <AnimatePresence>
-              <div className="bg-white  rounded-xl">
+              <div className="bg-white  rounded-xl mt-[45px]">
                 <div className="w-[80%] max-w-[570px] h-[700px]  mx-auto">
-                  <h2
-                    className="tittles gradient_title"
-                    style={{
-                      marginBottom: '30px',
-                      textAlign: 'left',
-                      marginTop: '45px',
-                    }}
-                  >
-                    Contact us!
-                  </h2>
                   <form onSubmit={handleSubmit}>
                     <div className="w-full bg-[#DFDFDF] flex items-center rounded-md mb-[20px] ">
                       <img src="/img/bxs_user-circle.svg" className=" mx-3" />
