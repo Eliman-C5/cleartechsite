@@ -21,11 +21,11 @@ const links = [
     title: 'About us',
     src: '/AboutUs',
   },
-  {
-    id: 4,
-    title: 'Blog',
-    src: 'https://clear-tech.com/blog/',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Blog',
+  //   src: 'https://clear-tech.com/blog/',
+  // },
 ];
 
 const casesMenu = [
