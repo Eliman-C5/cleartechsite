@@ -23,10 +23,10 @@ const Result = ({ results_data, rightImage }) => {
         </div>
       </article>
       <div className="hidden lg:block max-w-[1146px] mx-auto bottom-[10px]">
-        <Button title="Talk with us" contactButton />
+        <Button title="Talk with us" link={'/contact'} />
       </div>
       <div className=" lg:hidden  flex justify-center bottom-[-20px]">
-        <Button title="Talk with us" contactButton />
+        <Button title="Talk with us" link={'/contact'} />
       </div>
     </FadeSection>
   );

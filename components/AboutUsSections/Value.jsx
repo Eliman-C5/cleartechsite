@@ -55,7 +55,7 @@ const Value = () => {
         </div>
       </article>
       <div className="flex justify-center mt-[60px] hidden">
-        <Button title="Talk with us" contactButton />
+        <Button title="Talk with us" link={'/contact'} />
       </div>
     </Section>
   );

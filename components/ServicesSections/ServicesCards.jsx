@@ -21,7 +21,7 @@ const ServicesCards = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <Button title="Talk with us" contactButton />
+        <Button title="Talk with us" link={'/contact'} />
       </div>
     </Section>
   );

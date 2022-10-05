@@ -12,7 +12,7 @@ const WorkWithUs = () => {
       <Menu />
       <Manager />
       <div className="flex justify-center mt-[25px]">
-        <Button title={'Talk with us'} contactButton />
+        <Button title={'Talk with us'} link={'/contact'} />
       </div>
     </Section>
   );

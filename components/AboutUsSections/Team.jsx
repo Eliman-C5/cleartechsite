@@ -63,7 +63,7 @@ const Team = () => {
         </div>
       </article>
       <div className="flex justify-center mt-[30px]">
-        <Button title="Contact us" contactButton />
+        <Button title="Contact us" link={'/contact'} />
       </div>
     </Section>
   );

@@ -16,7 +16,7 @@ const AboutUsSection = () => {
       <Menu />
       <Manager />
       <div className="flex justify-center mt-[35px]">
-        <Button title={'Know how'} contactButton={false} link={'/Services'} />
+        <Button title={'Know how'} link={'/Services'} />
       </div>
     </Section>
   );
