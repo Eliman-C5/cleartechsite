@@ -25,12 +25,12 @@ const links = [
     src: '/AboutUs',
     dropdown: false,
   },
-  {
-    id: '4',
-    title: 'Blog',
-    src: 'https://clear-tech.com/blog/',
-    dropdown: false,
-  },
+  // {
+  //   id: '4',
+  //   title: 'Blog',
+  //   src: 'https://clear-tech.com/blog/',
+  //   dropdown: false,
+  // },
 ];
 
 const casesMenu = [
