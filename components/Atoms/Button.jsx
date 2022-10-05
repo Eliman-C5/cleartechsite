@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useGeneralProvider } from 'context/GeneralProvider';
 import Link from 'next/link';
 const Button = ({ title, link, contactButton }) => {
-  const { contact, setContact } = useGeneralProvider();
+  const { contact, setContact, mobileMenu, setMobileMenu, } = useGeneralProvider();
   return (
     <>
       {contactButton ? (
@@ -27,6 +27,7 @@ const Button = ({ title, link, contactButton }) => {
               backgroundColor: '#00A8FF',
             }}
             className=" bg-color02_blue  text-white text-sm px-[30px] py-[10px] rounded-md "
+            onClick={() => setMobileMenu(false)}
           >
             {title}
           </motion.button>

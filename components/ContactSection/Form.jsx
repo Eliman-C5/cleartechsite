@@ -88,8 +88,8 @@ export const Form = () => {
 
   return (
     <AnimatePresence>
-              <div className="h-[700px]  bg-white  rounded-xl">
-                <div className="w-4/5 mx-auto">
+              <div className="bg-white  rounded-xl">
+                <div className="w-[80%] max-w-[570px] h-[700px]  mx-auto">
                   <h2
                     className="tittles gradient_title"
                     style={{
