@@ -37,8 +37,8 @@ const LittleCards = [
 const LittleCard = ({ icon, title }) => {
   return (
     <div className="w-[40%] md:w-[15%] mb-10 md:mb-0">
-      <img src={icon} alt={title} />
-      <p className=" text-color02_blue text-sm">{title}</p>
+      <img src={icon} alt={title} className='mx-auto mb-[10px]'/>
+      <p className=" text-color02_blue text-sm text-center">{title}</p>
     </div>
   );
 };

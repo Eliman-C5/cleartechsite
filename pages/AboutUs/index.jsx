@@ -12,7 +12,7 @@ const index = () => {
         title={'About us'}
         desc="Discover What Clear Data Insights Can Do For Your Business"
       />
-      <Value />
+      <Value />    
       <Choose />
       <Team />
       <CareerBanner />

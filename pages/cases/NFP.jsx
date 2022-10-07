@@ -18,7 +18,8 @@ const Bimbo = () => {
           'This Data Model had several unnecessary complexities, and the Reports were struggling to be accurate and reflect the reality of the business operations.           ',
           'Most of these Reports were aimed at external stakeholders, investors, and partners, which exposed the client to negative remarks.',
         ]}
-        img={'/img/cases/challenge_NFP.png'}
+        //img={'/img/cases/challenge_NFP.png'}
+        img={'/img/cases/NFP-challenge.png'}
       />
       <Deal deal_data={deal_NFP} />
       <Result

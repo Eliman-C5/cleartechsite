@@ -18,7 +18,8 @@ const Bimbo = () => {
           'They needed a system that allow them to improve the costs of their workforce management operations and provide key metrics for operational performance.          ',
           'A solution capable of integrating with their tools, monitor their agents in real time and alert supervisors and WFM specialists of any performance and schedule deviation.          ',
         ]}
-        img={'/img/cases/challenge_TTEC.png'}
+        //img={'/img/cases/challenge_TTEC.png'}
+        img={'/img/cases/TTEC-challenge.png'}
       />
       <Deal deal_data={deal_TTEC} />
       <Result

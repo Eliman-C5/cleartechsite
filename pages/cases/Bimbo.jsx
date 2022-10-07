@@ -18,7 +18,8 @@ const Bimbo = () => {
           'Automate profitability generation processes',
           'Facilitate and promote self-service BI',
         ]}
-        img={'/img/cases/challenge_bimbo.png'}
+        //img={'/img/cases/challenge_bimbo.png'}
+        img={'/img/cases/Bimbo-challenge.png'}
       />
       <Deal deal_data={deal_bimbo} />
       <Result
