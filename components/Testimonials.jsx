@@ -14,9 +14,9 @@ const TestimonialCard = ({ img, job, desc }) => {
       <div className="w-[90%] h-[90%]">
         <img src="/img/stars.svg" alt="rating" />
         <p className="roboto text-sm font-normal text-[#999999] my-2">{desc}</p>
-        <div className="flex gap-4 items-center">
+        <div className="flex items-center">
           {/* <p className=" text-color02_blue font-bold ">{name}</p> */}
-          <img src={img} alt={img} className="w-[60px] h-[60px] rounded-full" />
+          <img src={img} alt={img} className="w-[60px] h-[60px] rounded-full mr-4" />
           <p className="roboto text-sm font-normal text-[#999999]">{job}</p>
         </div>
       </div>

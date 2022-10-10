@@ -6,11 +6,11 @@ const MapSection = () => {
     <Section>
       <div className="w-full flex justify-center items-center">
         <img
-          src="/img/map_benefits.png"
+          src="/img/Mapa beneficios.png"
           alt="map"
           className="hidden md:block"
         />
-        <img src="/img/map_mobile.png" alt="map" className="md:hidden" />
+        <img src="/img/Mapa mobile.png" alt="map" className="md:hidden" />
       </div>
     </Section>
   );

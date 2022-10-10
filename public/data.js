@@ -538,13 +538,13 @@ export const bimbo_resultData = {
   cards_data: [
     {
       id: 1,
-      icon: '/img/icons/aboutus/global.svg',
+      icon: '/img/icons/knowhow/operations3.svg',
       title: 'Unified Data Repository',
       desc: 'Concentrated data from multiple sources from different countries',
     },
     {
       id: 2,
-      icon: '/img/icons/aboutus/costs.svg',
+      icon: '/img/icons/aboutus/global.svg',
       title: 'Global vision',
       desc: 'Automated the countries profitability calculations and data layer that supports multiple teams across the world',
     },
