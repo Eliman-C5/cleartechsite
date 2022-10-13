@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from 'components/Wrappers/NormalAndFadeInSection';
+import { motion } from 'framer-motion';
 
 const CareerBanner = () => {
   return (
@@ -23,9 +24,20 @@ const CareerBanner = () => {
               See our current positions
             </p>
           </div>
-          <button className=" transition-all   duration-500 hover:bg-[#00A8FF] bg-color02_blue text-sm rounded-md  text-white px-7 py-2 disabled:opacity-50">
-            Go to careers
-          </button>
+
+          <a href='https://www.linkedin.com/company/cleartechdata/' target='_blank'>
+            <motion.button
+              whileHover={{
+                scale: 1.15,
+                transition: { duration: 0.5 },
+                backgroundColor: '#00A8FF',
+              }}
+              className=" bg-color02_blue  text-white text-sm px-[30px] py-[10px] rounded-md "
+            >
+              Go to careers
+            </motion.button>
+          </a>
+          
         </div>
       </Section>
     </div>
