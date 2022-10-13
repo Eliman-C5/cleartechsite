@@ -8,7 +8,7 @@ const CareerBanner = () => {
       className="w-full bg-no-repeat bg-cover bg-center"
       style={{
         backgroundImage: 'url("/img/career_bg.png")',
-        filter: ' drop-shadow(0px 10px 40px rgba(67, 97, 238, 0.21))',
+        boxShadow: '0px 10px 40px rgb(67 97 238 / 21%)',
       }}
     >
       <Section>
