@@ -34,7 +34,7 @@ module.exports = {
     extend: {
       colors: {
         color03_black: '#010B39',
-        color02_blue: '#4361EE',
+        color02_blue: '#435fa9',
         dataAI: '#4CC9F0',
         operations: '#360B98',
         product: '#F2AC59',

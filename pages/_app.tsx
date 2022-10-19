@@ -16,10 +16,15 @@ function MyApp({ Component, pageProps }: AppProps) {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        <link
+        {/* <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
+        /> */}
+        <link
+          href="//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014"
+          rel="stylesheet"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"></link>
       </Head>
       <AppProvider>
         <Layout>

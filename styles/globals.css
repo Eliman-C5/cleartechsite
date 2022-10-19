@@ -7,21 +7,28 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 
 .roboto {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Raleway', sans-serif;
 }
 .poppins {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Raleway', sans-serif;
 }
 .tittles {
-  font-size: 2rem;
+  font-size: 32px;
   color: #010b39;
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-weight: 700;
+  font-family: 'DIN 2014';
   text-align: center;
   margin-bottom: 45px;
+  /* DIN 2014 */
 }
 
 .gradient_shadow {
@@ -30,7 +37,8 @@ body {
 
 .gradient_title {
   font-weight: 700;
-  background: -webkit-linear-gradient(#00a8ff, #4361ee);
+  /* background: -webkit-linear-gradient(#00a8ff, #4361ee); */
+  background: -webkit-linear-gradient(#00a8ff, #435fa9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

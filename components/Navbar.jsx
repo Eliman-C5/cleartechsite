@@ -58,7 +58,7 @@ const Navbar = () => {
       <div className="max-w-[1146px] w-[86%] mx-auto relative flex items-center justify-between h-full">
         <Link href={'/'}>
           <img
-            src="/img/cleartech_log.png"
+            src="/img/cleartech_log2.png"
             alt="cleartech logo"
             className=" cursor-pointer"
           />
