@@ -30,7 +30,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 .tittles {
-  font-size: 32px;
+  font-size: 34px;
   /* font'size: 2rem */
   color: #010b39;
   /* font-weight: 600; */
@@ -47,8 +47,9 @@ body {
 
 .gradient_title {
   font-weight: 700;
+  background-color: #435fa9;
   /* background: -webkit-linear-gradient(#00a8ff, #4361ee); */
-  background: -webkit-linear-gradient(#00a8ff, #435fa9);
+  /* background: -webkit-linear-gradient(#00a8ff, #435fa9); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

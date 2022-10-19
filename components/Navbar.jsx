@@ -68,7 +68,7 @@ const Navbar = () => {
             <Link href={link.src} key={link.id}>
               <a href={link.src} rel="noreferrer">
                 <p
-                  className="text-color03_black  text-sm cursor-pointer"
+                  className="text-color03_black text-[16px] cursor-pointer"
                   onMouseEnter={() => hoverNavbar(link.id)}
                 >
                   {link.title}
