@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         /> */}
         <link
-          href="//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014"
+          href="https://db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014"
           rel="stylesheet"
         />
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"></link>
