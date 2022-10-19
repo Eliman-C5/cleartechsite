@@ -12,7 +12,7 @@ const Button = ({ title, link}) => {
               transition: { duration: 0.5 },
               backgroundColor: '#00A8FF',
             }}
-            className=" bg-color02_blue  text-white text-sm px-[30px] py-[10px] rounded-md "
+            className=" bg-color02_blue  text-white px-[30px] py-[10px] rounded-md "
             onClick={() => setMobileMenu(false)}
           >
             {title}

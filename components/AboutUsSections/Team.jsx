@@ -13,10 +13,10 @@ import { Pagination, Navigation } from 'swiper';
 const TeamCard = ({ image, name, job, likedinlink }) => {
   return (
     <div className="lg:w-[20%] mb-[45px]">
-      <div className="flex flex-col justify-center items-center  w-[80%]">
+      <div className="flex flex-col justify-center items-center  w-[90%]">
         <img src={image} alt={name} className="mb-[20px]" />
-        <p className="font-bold roboto text-center mb-[10px] ">{name}</p>
-        <p className="text-center text-sm h-[40px] mb-[10px] ">{job}</p>
+        <p className="font-bold roboto text-[16px] text-center mb-[15px] ">{name}</p>
+        <p className="text-center text-base h-[40px] mb-[15px] ">{job}</p>
         <img src="/img/team/linkedin.svg" className="cursor-pointer" />
       </div>
     </div>

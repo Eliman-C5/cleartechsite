@@ -8,7 +8,7 @@ const PageHeader = ({ title, desc, show = true }) => {
     >
       <Section>
         <div className="h-[322px] flex flex-col justify-center items-center">
-          <p className="gradient_title text-[24px] md:text-[32px]  ">{title}</p>
+          <p className="din gradient_title text-[24px] md:text-[32px]  ">{title}</p>
           <p className={`roboto text-center  text-color03_black w-3/5 mt-[25px] ${show ? 'block' : 'hidden'}`}>
             {desc}
           </p>

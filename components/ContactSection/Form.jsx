@@ -204,7 +204,7 @@ export const Form = () => {
                     </div>
                     <button
                       type="submit"
-                      className=" hover:bg-[#00A8FF] transition-all bg-color02_blue mt-[30px] text-white text-sm px-[30px] py-[10px] rounded-md "
+                      className=" hover:bg-[#00A8FF] transition-all bg-color02_blue mt-[30px] text-white px-[30px] py-[10px] rounded-md "
                     >
                       Submit
                     </button>

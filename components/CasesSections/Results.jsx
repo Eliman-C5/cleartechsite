@@ -12,20 +12,20 @@ const Result = ({ results_data, rightImage }) => {
           The <span className="gradient_title ">results</span>
         </h2>
       </div>
-      <article className="max-w-[1146px] lg:h-[720px] lg:flex items-center mx-auto justify-around relative">
-        <div className=" flex md:flex-wrap flex-col md:flex-row w-[86%] mx-auto lg:mx-0 lg:w-[545px] h-auto lg:h-[80%] items-end">
+      <article className="max-w-[1146px] lg:h-[815px] lg:flex items-center mx-auto justify-around relative">
+        <div className=" flex md:flex-wrap flex-col md:flex-row w-[86%] mx-auto lg:mx-0 lg:w-[545px] h-auto lg:h-[90%] items-end">
           {results_data.map((c) => (
-            <IconCard key={c.id} icon={c.icon} title={c.title} desc={c.desc} />
+            <IconCard key={c.id} icon={c.icon} title={c.title} desc={c.desc} height={false}/>
           ))}
         </div>
         <div className="w-[60%]">
           <img src={rightImage} alt="map" className="hidden lg:block " />
         </div>
       </article>
-      <div className="hidden lg:block max-w-[1146px] mx-auto bottom-[10px]">
+      <div className="hidden lg:block max-w-[1146px] mx-auto relative bottom-[10px]">
         <Button title="Talk with us" link={'/contact'} />
       </div>
-      <div className=" lg:hidden  flex justify-center bottom-[-20px]">
+      <div className=" lg:hidden  flex justify-center">
         <Button title="Talk with us" link={'/contact'} />
       </div>
     </FadeSection>
