@@ -11,7 +11,7 @@ const WorkWithUs = () => {
       </h2>
       <Menu />
       <Manager />
-      <div className="flex justify-center mt-[45px] lg:mt-[25px]">
+      <div className="flex justify-center mt-[45px] lg:mt-[25px] xl:mt-0">
         <Button title={'Talk with us'} link={'/contact'} />
       </div>
     </Section>
