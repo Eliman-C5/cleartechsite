@@ -368,7 +368,7 @@ export const provide = [
     data: [
       {
         id: 1,
-        icon: 'img/icons/services/bianalytics/analytics.svg',
+        icon: 'img/icons/services/bianalytics/reporting.svg',
         title: 'Reporting',
         desc: 'Individual business reporting.',
       },

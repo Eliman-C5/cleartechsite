@@ -64,13 +64,13 @@ textarea {
 }
 
 .dropdown_title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 10px;
   font-weight: 400;
   border-bottom: solid 1px #dfdfdf;
 }
 .dropdown_title:hover {
-  background: -webkit-linear-gradient(#00a8ff, #4361ee);
+  background-color: #435fa9;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

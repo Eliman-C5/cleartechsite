@@ -29,7 +29,7 @@ const Footer = () => {
     <Section>
       <div className=" flex md:flex-row flex-col h-auto md:h-[215px]">
         <div className="flex-1">
-          <img src="/img/cleartech_log.png" alt=" cleartech logo" />
+          <img src="/img/cleartech_log2.png" alt=" cleartech logo" />
           <p className=" text-color03_black ml-3 roboto  ">
             Let your data tell a better story
           </p>
