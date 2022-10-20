@@ -11,7 +11,7 @@ const Card = ({ imgsrc, title, desc, link, tag }) => {
     >
       <div className="relative">
         <img src={imgsrc} />
-        <p className="text-white text-xs  bg-[#435fa9] absolute  top-5 right-0 px-4 py-2">
+        <p className="text-white text-xs  bg-[#435fa9] absolute  top-0 right-0 px-4 py-2">
           {tag}
         </p>
       </div>
