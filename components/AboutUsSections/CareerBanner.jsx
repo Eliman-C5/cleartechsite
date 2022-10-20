@@ -12,7 +12,7 @@ const CareerBanner = () => {
       }}
     >
       <Section>
-        <div className="h-[170px] flex flex-col justify-center lg:flex-row items-center">
+        <div className="h-[190px] flex flex-col justify-center lg:flex-row items-center">
           <div className="lg:flex-1">
             <h2
               className="tittles"

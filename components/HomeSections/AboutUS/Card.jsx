@@ -20,7 +20,7 @@ const Card = ({ imgsrc, title, charlist, color }) => {
         </p>
         <div>
           {charlist.map((li, i) => (
-            <p key={i} className=" text-[#7B7B7B] text-[14px] poppins ">
+            <p key={i} className=" text-[#7B7B7B] text-base poppins ">
               {li}
             </p>
           ))}

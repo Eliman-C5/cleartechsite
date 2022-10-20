@@ -10,7 +10,7 @@ const LogoSection = () => {
   return (
     <Section>
       <div>
-        <h2 className="tittles">
+        <h2 className="tittles pt-[20px]">
           They <span className="gradient_title">trust us</span>{' '}
         </h2>
         <div className="lg:flex items-center hidden justify-between">
