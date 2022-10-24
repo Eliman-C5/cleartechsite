@@ -42,7 +42,7 @@ const HeroSection = () => {
             {/*image container*/}
             <div className="flex justify-center items-center">
               <img
-                src="/img/dashboard2.png"
+                src="/img/dashboard3.png"
                 alt="let your data tell a better story"
                 className="h-[58vh] hidden md:block"
               />
