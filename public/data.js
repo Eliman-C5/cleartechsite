@@ -681,3 +681,80 @@ export const testimonials = [
     desc: 'I have worked with Clear-Tech several times over the past few years.  In each engagement the value they brought was fantastic.  Technical skill coupled with great business acumen produced excellent outcomes for both my companies and the clients we served.  I would highly recommend Clear-Tech as a reliable, outcome-focused partner.',
   },
 ];
+
+export const dataWeCollect = {
+  what_user: [
+    {
+      id: 1,
+      text: 'Your IP address.',
+    },
+    {
+      id: 2,
+      text: 'Your contact information and email address.',
+    },
+    {
+      id: 3,
+      text: 'Other information such as interests and preferences.',
+    },
+    {
+      id: 4,
+      text: 'Data profile regarding your online behavior on our website.',
+    },
+  ],
+  why_user: [
+    {
+      id: 1,
+      text: 'To better understand your needs',
+    },
+    {
+      id: 2,
+      text: 'To improve our services and products',
+    },
+    {
+      id: 3,
+      text: 'To send you promotional emails containing the information we think you will find interesting.',
+    },
+    {
+      id: 4,
+      text: 'To contact you to fill out surveys and participate in other types of market research.',
+    },
+    {
+      id: 5,
+      text: 'To customize our website according to your online behavior and personal preferences.',
+    },
+  ]
+  
+}
+
+export const privacyInfo = {
+  safeguarding: [
+    {
+      id: 1,
+      text: 'Clear Tech is committed to securing your data and keeping it confidential. [name] has done all in its power to prevent data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us safeguard all the information we collect online.'
+    },
+  ],
+  websites: [
+    {
+      id: 1,
+      text: 'Our website contains links that lead to other websites. If you click on these links Clear Tech is not held responsible for your data and privacy protection. Visiting those websites is not governed by this privacy policy agreement. Make sure to read the privacy policy documentation of the website you go to from our website.'
+    }
+  ],
+  restricting: [
+    {
+      id: 1,
+      text: 'At some point, you might wish to restrict the use and collection of your personal data. You can achieve this by doing the following:'
+    },
+    {
+      id: 2,
+      text: `When you are filling the forms on the website, make sure to check if there is a box which you can leave unchecked, if you don't want to disclose your personal information.`
+    },
+    {
+      id: 3,
+      text: 'If you have already agreed to share your information with us, feel free to contact us via email and we will be more than happy to change this for you.'
+    },
+    {
+      id: 4,
+      text: 'Clear Tech will not lease, sell, or distribute your personal information to any third parties, unless we have your permission. We might do so if the law forces us. Your personal information will be used when we need to send you promotional materials if you agree to this privacy policy.',
+    },
+  ],
+}

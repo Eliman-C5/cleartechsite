@@ -21,6 +21,11 @@ const links = [
     title: 'About us',
     src: '/AboutUs',
   },
+  {
+    id: 4,
+    title: 'Privacy',
+    src: '/privacy',
+  },
   // {
   //   id: 4,
   //   title: 'Blog',
