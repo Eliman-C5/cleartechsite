@@ -25,11 +25,6 @@ const links = [
     src: '/AboutUs',
     dropdown: false,
   },
-  {
-    id: 4,
-    title: 'Privacy',
-    src: '/privacy',
-  },
   // {
   //   id: '4',
   //   title: 'Blog',

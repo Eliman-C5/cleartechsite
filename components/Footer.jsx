@@ -22,6 +22,11 @@ const links = [
     title: 'Blog',
     src: 'https://clear-tech.com/blog/',
   },
+  {
+    id: '5',
+    title: 'Privacy',
+    src: '/privacy',
+  }
 ];
 
 const Footer = () => {

@@ -4,7 +4,12 @@ import Section from 'components/Wrappers/NormalAndFadeInSection';
 const CookieText = () => {
   return (
     <Section>
-      <h2 className='tittles'>Our Cookie Policy</h2>
+      <h2 
+        className='tittles' 
+        style={{ marginBottom: '20px', textAlign: 'left' }}
+      >
+        Our Cookie Policy
+      </h2>
       <p>Once you agree to allow our website to use cookies, you also agree to use the data it collects regarding your online behavior (analyze web traffic, web pages you spend the most time on, and websites you visit).</p>
       <p>The data we collect by using cookies is used to customize our website to your needs. After we use the data for statistical analysis, the data is completely removed from our systems.</p>
       <p>Please note that cookies don't allow us to gain control of your computer in any way. They are strictly used to monitor which pages you find useful and which you do not so that we can provide a better experience for you.</p>

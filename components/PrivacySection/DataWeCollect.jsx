@@ -6,7 +6,7 @@ const DataWeCollect = ({title, desc, info}) => {
     <Section>
       <h2 
         className='tittles' 
-        style={{ marginBottom: '20px' }}
+        style={{ marginBottom: '20px', textAlign: 'left' }}
       >
         {title}
       </h2>

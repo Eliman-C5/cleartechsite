@@ -123,9 +123,8 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              disabled
               ref={formbutton}
-              className=" transition-all   duration-500 hover:bg-[#00A8FF] bg-color02_blue text-sm rounded-md  text-white px-7 py-2 disabled:opacity-50"
+              className=" transition-all   duration-500 hover:bg-[#00A8FF] bg-color02_blue text-sm rounded-md  text-white px-7 py-2 "
             >
               Suscribe
             </button>
